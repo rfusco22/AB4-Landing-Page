@@ -1036,7 +1036,7 @@ function About() {
                       : 'bg-white/5 group-hover:bg-white/10'
                   }`}>
                     {coach.photo ? (
-                      <img src={coach.photo} alt={coach.name} className="w-full h-full object-cover" />
+                      <img src={coach.photo} alt={coach.name} className="w-full h-full object-cover object-top" />
                     ) : (
                       <svg className={`w-7 h-7 sm:w-8 sm:h-8 transition-colors duration-500 ${
                         selectedCoach === i ? 'text-brand-red' : 'text-white/30 group-hover:text-white/50'
