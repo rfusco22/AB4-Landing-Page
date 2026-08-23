@@ -908,7 +908,7 @@ function About() {
       name: 'Andrés Eloy Blanco',
       role: c.teamFounder,
       desc: c.teamFounderDesc,
-      photo: '/staff-andres.jpg',
+      photo: '/AEB.jpeg',
       bio: c.founderBioParagraphs,
       stats: c.founderBioStats,
       teams: c.founderBioTeams,
@@ -1029,17 +1029,21 @@ function About() {
                       : 'bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/10'
                   }`}
                 >
-                  {/* Photo placeholder */}
-                  <div className={`w-14 h-14 sm:w-16 sm:h-16 rounded-xl flex items-center justify-center flex-shrink-0 transition-all duration-500 ${
+                  {/* Photo */}
+                  <div className={`w-14 h-14 sm:w-16 sm:h-16 rounded-xl flex items-center justify-center flex-shrink-0 transition-all duration-500 overflow-hidden ${
                     selectedCoach === i
                       ? 'bg-brand-red/10'
                       : 'bg-white/5 group-hover:bg-white/10'
                   }`}>
-                    <svg className={`w-7 h-7 sm:w-8 sm:h-8 transition-colors duration-500 ${
-                      selectedCoach === i ? 'text-brand-red' : 'text-white/30 group-hover:text-white/50'
-                    }`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                    </svg>
+                    {coach.photo ? (
+                      <img src={coach.photo} alt={coach.name} className="w-full h-full object-cover" />
+                    ) : (
+                      <svg className={`w-7 h-7 sm:w-8 sm:h-8 transition-colors duration-500 ${
+                        selectedCoach === i ? 'text-brand-red' : 'text-white/30 group-hover:text-white/50'
+                      }`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                      </svg>
+                    )}
                   </div>
                   {/* Info */}
                   <div className="flex-1 min-w-0">
@@ -1081,11 +1085,19 @@ function About() {
                 <div className="grid lg:grid-cols-2 h-full">
                   {/* Photo Side */}
                   <div className="relative h-64 sm:h-80 lg:h-full bg-gradient-to-br from-gray-100 to-gray-50 min-h-[250px]">
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <svg className="w-24 h-24 sm:w-32 sm:h-32 text-gray-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                      </svg>
-                    </div>
+                    {allStaff[selectedCoach].photo ? (
+                      <img 
+                        src={allStaff[selectedCoach].photo} 
+                        alt={allStaff[selectedCoach].name}
+                        className="w-full h-full object-cover"
+                      />
+                    ) : (
+                      <div className="absolute inset-0 flex items-center justify-center">
+                        <svg className="w-24 h-24 sm:w-32 sm:h-32 text-gray-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                        </svg>
+                      </div>
+                    )}
                   </div>
 
                   {/* Info Side */}
