@@ -918,7 +918,7 @@ function About() {
       name: 'Alejandro Fernández',
       role: c.teamOps,
       desc: c.teamOpsDesc,
-      photo: '/staff-alejandro.jpg',
+      photo: '/AleFernandez.webp',
       bio: c.alejandroBioParagraphs,
       highlights: c.alejandroBioHighlights,
       closing: c.alejandroBioClosing,
