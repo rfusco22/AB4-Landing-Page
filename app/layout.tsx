@@ -9,6 +9,10 @@ export const metadata: Metadata = {
     title: 'AB4 Academy - Elite Baseball Training',
     description: 'Developing student-athletes through professional baseball training, academic support, and college preparation in Tampa, FL.',
   },
+  icons: {
+    icon: '/logo1.png',
+    apple: '/logo1.png',
+  },
 };
 
 export default function RootLayout({
