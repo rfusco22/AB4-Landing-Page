@@ -10,8 +10,8 @@ export const metadata: Metadata = {
     description: 'Developing student-athletes through professional baseball training, academic support, and college preparation in Tampa, FL.',
   },
   icons: {
-    icon: '/logo1.png',
-    apple: '/logo1.png',
+    icon: '/favicon.png',
+    apple: '/favicon.png',
   },
 };
 
