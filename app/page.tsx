@@ -908,7 +908,7 @@ function About() {
       name: 'Andrés Eloy Blanco',
       role: c.teamFounder,
       desc: c.teamFounderDesc,
-      photo: '/AEB.jpeg',
+      photo: '/A_Blanco.JPG',
       bio: c.founderBioParagraphs,
       stats: c.founderBioStats,
       teams: c.founderBioTeams,
