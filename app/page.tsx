@@ -1089,7 +1089,7 @@ function About() {
                       <img 
                         src={allStaff[selectedCoach].photo} 
                         alt={allStaff[selectedCoach].name}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover object-top"
                       />
                     ) : (
                       <div className="absolute inset-0 flex items-center justify-center">
