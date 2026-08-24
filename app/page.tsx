@@ -221,6 +221,15 @@ const t = {
       'Durante varios años trabajó con diferentes afiliados de la organización de Toronto, incluyendo la Dominican Summer League, Gulf Coast League y Bluefield Blue Jays, participando directamente en la formación y desarrollo de pitchers profesionales.',
       'Actualmente, como Pitching Coach de AB4 Academy, Rafael aporta su experiencia en mecánica de lanzamiento, preparación, fundamentos y desarrollo integral de pitchers, ayudando a los atletas a construir una base sólida para competir a niveles superiores.',
     ],
+    // Guarner Bio
+    guarnerBioTag: 'Trayectoria Profesional',
+    guarnerBioTitle: 'Guarner Dipre',
+    guarnerBioRole: 'Coach | Professional Baseball Experience',
+    guarnerBioParagraphs: [
+      'Guarner Dipre es exjugador profesional de béisbol con experiencia dentro de la organización de los Philadelphia Phillies, donde se desarrolló principalmente como shortstop e infielder, jugando también segunda y tercera base.',
+      'Originario de República Dominicana, desarrolló su carrera profesional entre 2018 y 2021 dentro del sistema de ligas menores de los Phillies. Actualmente continúa dedicado al desarrollo de jóvenes atletas y se desempeña como Head Coach de Diamond Elite 12U National en travel baseball.',
+      'En AB4 Academy, aporta su experiencia profesional y conocimiento especializado en infield development, defensive fundamentals y player development, ayudando a los atletas a fortalecer sus habilidades, disciplina y comprensión del juego.',
+    ],
     // Footer
     footerDesc: '⚾ Programa de desarrollo de béisbol juvenil de élite en Tampa, Florida. Desarrollando atletas y líderes de carácter.',
     footerPrograms: '⚾ Programas',
@@ -432,6 +441,15 @@ const t = {
       'Rafael Lazo is a former Venezuelan professional pitcher with experience within the New York Mets organization and an extensive career as a Pitching Coach in the Toronto Blue Jays development system.',
       'For several years he worked with different Toronto affiliates, including the Dominican Summer League, Gulf Coast League, and Bluefield Blue Jays, directly participating in the training and development of professional pitchers.',
       'Currently, as Pitching Coach of AB4 Academy, Rafael brings his experience in pitching mechanics, preparation, fundamentals, and comprehensive pitcher development, helping athletes build a solid foundation to compete at higher levels.',
+    ],
+    // Guarner Bio
+    guarnerBioTag: 'Professional Career',
+    guarnerBioTitle: 'Guarner Dipre',
+    guarnerBioRole: 'Coach | Professional Baseball Experience',
+    guarnerBioParagraphs: [
+      'Guarner Dipre is a former professional baseball player with experience within the Philadelphia Phillies organization, where he primarily developed as shortstop and infielder, also playing second and third base.',
+      'Originally from the Dominican Republic, he developed his professional career between 2018 and 2021 within the Phillies minor league system. He continues to be dedicated to developing young athletes and serves as Head Coach of Diamond Elite 12U National in travel baseball.',
+      'At AB4 Academy, he brings his professional experience and specialized knowledge in infield development, defensive fundamentals, and player development, helping athletes strengthen their skills, discipline, and understanding of the game.',
     ],
     // Footer
     footerDesc: '⚾ Elite youth baseball development program in Tampa, Florida. Developing elite athletes and leaders of character.',
@@ -944,9 +962,11 @@ function About() {
       bio: c.rafaelBioParagraphs,
     },
     {
-      name: 'Warner Dipre',
+      name: 'Guarner Dipre',
       role: c.teamInfield,
       photo: '/staff-warner.jpg',
+      bioRole: c.guarnerBioRole,
+      bio: c.guarnerBioParagraphs,
     },
     {
       name: 'Juan José Muñoz',
