@@ -1061,11 +1061,11 @@ function About() {
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -20 }}
                 transition={{ duration: 0.4, ease: [0.25, 0.46, 0.45, 0.94] }}
-                className="bg-white rounded-2xl sm:rounded-3xl overflow-hidden min-h-[400px] sm:min-h-[500px]"
+                className="bg-white rounded-2xl sm:rounded-3xl overflow-hidden"
               >
                 <div className="grid lg:grid-cols-2 h-full">
                   {/* Photo Side */}
-                  <div className="relative h-64 sm:h-80 lg:h-full bg-gradient-to-br from-gray-100 to-gray-50 min-h-[250px]">
+                  <div className="relative h-48 sm:h-56 lg:h-full bg-gradient-to-br from-gray-100 to-gray-50 min-h-[180px]">
                     {allStaff[selectedCoach].photo ? (
                       <img 
                         src={allStaff[selectedCoach].photo} 
@@ -1082,29 +1082,29 @@ function About() {
                   </div>
 
                   {/* Info Side */}
-                  <div className="p-6 sm:p-8 lg:p-10 flex flex-col justify-center">
-                    <div className="inline-block text-[10px] sm:text-xs font-bold tracking-[0.2em] text-brand-red uppercase bg-brand-red/10 px-3 py-1 rounded-full mb-4 sm:mb-6 self-start">
+                  <div className="p-4 sm:p-6 lg:p-8 flex flex-col justify-center">
+                    <div className="inline-block text-[10px] sm:text-xs font-bold tracking-[0.2em] text-brand-red uppercase bg-brand-red/10 px-3 py-1 rounded-full mb-3 sm:mb-4 self-start">
                       {allStaff[selectedCoach].role}
                     </div>
-                    <h3 className="text-2xl sm:text-3xl lg:text-4xl font-black text-brand-black mb-4 sm:mb-6 tracking-tight">
+                    <h3 className="text-xl sm:text-2xl lg:text-3xl font-black text-brand-black mb-2 sm:mb-3 tracking-tight">
                       {allStaff[selectedCoach].name}
                     </h3>
 
                     {/* Role & Born */}
                     {allStaff[selectedCoach].bioRole && (
-                      <div className="mb-4 sm:mb-6">
-                        <p className="text-sm sm:text-base font-semibold text-brand-black">{allStaff[selectedCoach].bioRole}</p>
+                      <div className="mb-3 sm:mb-4">
+                        <p className="text-xs sm:text-sm font-semibold text-brand-black">{allStaff[selectedCoach].bioRole}</p>
                         {allStaff[selectedCoach].bioBorn && (
-                          <p className="text-xs sm:text-sm text-gray-500 mt-1">{allStaff[selectedCoach].bioBorn}</p>
+                          <p className="text-[10px] sm:text-xs text-gray-500 mt-0.5">{allStaff[selectedCoach].bioBorn}</p>
                         )}
                       </div>
                     )}
 
                     {/* Highlights if available */}
                     {allStaff[selectedCoach].highlights && (
-                      <div className="flex flex-wrap gap-2 mb-6 sm:mb-8">
+                      <div className="flex flex-wrap gap-1.5 sm:gap-2 mb-3 sm:mb-4">
                         {allStaff[selectedCoach].highlights.map((h: { icon: string; label: string }, i: number) => (
-                          <span key={i} className="inline-flex items-center gap-1.5 bg-brand-red/5 border border-brand-red/10 text-brand-black px-3 py-1.5 rounded-full text-xs font-medium">
+                          <span key={i} className="inline-flex items-center gap-1 bg-brand-red/5 border border-brand-red/10 text-brand-black px-2 py-1 rounded-full text-[10px] sm:text-xs font-medium">
                             <span>{h.icon}</span>
                             {h.label}
                           </span>
@@ -1114,25 +1114,25 @@ function About() {
 
                     {/* Bio */}
                     {allStaff[selectedCoach].bio ? (
-                      <div className="space-y-3 sm:space-y-4 max-h-48 sm:max-h-64 overflow-y-auto pr-2">
-                        {allStaff[selectedCoach].bio.slice(0, 3).map((p: string, i: number) => (
-                          <p key={i} className="text-gray-600 leading-relaxed text-sm">{p}</p>
+                      <div className="space-y-2 sm:space-y-3 overflow-y-auto pr-1 flex-1 min-h-0">
+                        {allStaff[selectedCoach].bio.slice(0, 2).map((p: string, i: number) => (
+                          <p key={i} className="text-gray-600 leading-relaxed text-[11px] sm:text-xs">{p}</p>
                         ))}
                       </div>
                     ) : (
-                      <p className="text-gray-400 text-sm italic">
+                      <p className="text-gray-400 text-xs italic">
                         {lang === 'es' ? 'Próximamente más información.' : 'More information coming soon.'}
                       </p>
                     )}
 
                     {/* Teams if available */}
                     {allStaff[selectedCoach].teams && (
-                      <p className="text-xs text-gray-400 mt-4 sm:mt-6">{allStaff[selectedCoach].teams}</p>
+                      <p className="text-[10px] sm:text-xs text-gray-400 mt-3 sm:mt-4">{allStaff[selectedCoach].teams}</p>
                     )}
 
                     {/* Closing */}
                     {allStaff[selectedCoach].closing && (
-                      <p className="text-brand-red font-bold text-sm italic mt-4 sm:mt-6">{allStaff[selectedCoach].closing}</p>
+                      <p className="text-brand-red font-bold text-xs sm:text-sm italic mt-3 sm:mt-4">{allStaff[selectedCoach].closing}</p>
                     )}
                   </div>
                 </div>
