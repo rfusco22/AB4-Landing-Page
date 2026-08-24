@@ -230,6 +230,16 @@ const t = {
       'Originario de República Dominicana, desarrolló su carrera profesional entre 2018 y 2021 dentro del sistema de ligas menores de los Phillies. Actualmente continúa dedicado al desarrollo de jóvenes atletas y se desempeña como Head Coach de Diamond Elite 12U National en travel baseball.',
       'En AB4 Academy, aporta su experiencia profesional y conocimiento especializado en infield development, defensive fundamentals y player development, ayudando a los atletas a fortalecer sus habilidades, disciplina y comprensión del juego.',
     ],
+    // Lilian Bio
+    lilianBioTag: 'Trayectoria Profesional',
+    lilianBioTitle: 'Prof. Lilian Ibáñez Greico',
+    lilianBioRole: 'Educator | Academic & Athletic Eligibility Support',
+    lilianBioParagraphs: [
+      'La Prof. Lilian Ibáñez Greico cuenta con más de 30 años de trayectoria en el área de la educación. Es educadora licenciada DOE K–12, profesora universitaria y especialista en orientación académica para estudiantes-atletas.',
+      'A lo largo de su carrera ha trabajado en homeschool support, planificación académica, seguimiento estudiantil y elegibilidad académica NCAA, acompañando a estudiantes y familias en procesos educativos que requieren organización, orientación y cumplimiento de requisitos académicos.',
+      'Completamente bilingüe en inglés y español, actualmente forma parte de AB4 Academy, donde brinda apoyo académico a nuestros student-athletes y contribuye a que puedan mantener un equilibrio responsable entre su formación educativa y su desarrollo deportivo.',
+      'Su experiencia y vocación aportan una visión integral al programa, promoviendo en cada estudiante disciplina, responsabilidad, autonomía y compromiso con su futuro académico y personal.',
+    ],
     // Footer
     footerDesc: '⚾ Programa de desarrollo de béisbol juvenil de élite en Tampa, Florida. Desarrollando atletas y líderes de carácter.',
     footerPrograms: '⚾ Programas',
@@ -450,6 +460,16 @@ const t = {
       'Guarner Dipre is a former professional baseball player with experience within the Philadelphia Phillies organization, where he primarily developed as shortstop and infielder, also playing second and third base.',
       'Originally from the Dominican Republic, he developed his professional career between 2018 and 2021 within the Phillies minor league system. He continues to be dedicated to developing young athletes and serves as Head Coach of Diamond Elite 12U National in travel baseball.',
       'At AB4 Academy, he brings his professional experience and specialized knowledge in infield development, defensive fundamentals, and player development, helping athletes strengthen their skills, discipline, and understanding of the game.',
+    ],
+    // Lilian Bio
+    lilianBioTag: 'Professional Career',
+    lilianBioTitle: 'Prof. Lilian Ibáñez Greico',
+    lilianBioRole: 'Educator | Academic & Athletic Eligibility Support',
+    lilianBioParagraphs: [
+      'Prof. Lilian Ibáñez Greico has over 30 years of experience in the field of education. She is a DOE licensed K–12 educator, university professor, and specialist in academic guidance for student-athletes.',
+      'Throughout her career, she has worked in homeschool support, academic planning, student monitoring, and NCAA academic eligibility, accompanying students and families in educational processes that require organization, guidance, and compliance with academic requirements.',
+      'Fully bilingual in English and Spanish, she is currently part of AB4 Academy, where she provides academic support to our student-athletes and helps them maintain a responsible balance between their educational training and athletic development.',
+      'Her experience and vocation bring a comprehensive vision to the program, promoting in each student discipline, responsibility, autonomy, and commitment to their academic and personal future.',
     ],
     // Footer
     footerDesc: '⚾ Elite youth baseball development program in Tampa, Florida. Developing elite athletes and leaders of character.',
@@ -976,9 +996,11 @@ function About() {
       bio: c.juanBioParagraphs,
     },
     {
-      name: 'Lic. Lilian Ibáñez Grico',
+      name: 'Prof. Lilian Ibáñez Greico',
       role: c.teamEducation,
       photo: '/staff-lilian.jpg',
+      bioRole: c.lilianBioRole,
+      bio: c.lilianBioParagraphs,
     },
   ];
 
