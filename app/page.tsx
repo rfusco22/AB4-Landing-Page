@@ -212,6 +212,15 @@ const t = {
       'Durante su trayectoria, adquirió experiencia en fundamentos técnicos, disciplina deportiva, preparación física y comprensión del juego, además de conocer de primera mano las exigencias y el nivel de competencia del baseball universitario en Estados Unidos.',
       'En AB4 Academy, Juan aporta su experiencia y conocimiento para contribuir al desarrollo integral de jóvenes atletas, trabajando en el fortalecimiento de sus fundamentos, mentalidad competitiva, disciplina y preparación para avanzar hacia niveles superiores de competencia.',
     ],
+    // Rafael Bio
+    rafaelBioTag: 'Trayectoria Profesional',
+    rafaelBioTitle: 'Rafael Lazo',
+    rafaelBioRole: 'Pitching Coach | Professional Baseball Experience',
+    rafaelBioParagraphs: [
+      'Rafael Lazo es exlanzador profesional venezolano con experiencia dentro de la organización de los New York Mets y una amplia trayectoria como Pitching Coach en el sistema de desarrollo de los Toronto Blue Jays.',
+      'Durante varios años trabajó con diferentes afiliados de la organización de Toronto, incluyendo la Dominican Summer League, Gulf Coast League y Bluefield Blue Jays, participando directamente en la formación y desarrollo de pitchers profesionales.',
+      'Actualmente, como Pitching Coach de AB4 Academy, Rafael aporta su experiencia en mecánica de lanzamiento, preparación, fundamentos y desarrollo integral de pitchers, ayudando a los atletas a construir una base sólida para competir a niveles superiores.',
+    ],
     // Footer
     footerDesc: '⚾ Programa de desarrollo de béisbol juvenil de élite en Tampa, Florida. Desarrollando atletas y líderes de carácter.',
     footerPrograms: '⚾ Programas',
@@ -414,6 +423,15 @@ const t = {
       'Juan Muñoz has experience in college baseball in the United States, where he developed his knowledge of the game in a competitive and high-level environment.',
       'During his career, he gained experience in technical fundamentals, sports discipline, physical preparation, and understanding of the game, as well as first-hand knowledge of the demands and competition level of college baseball in the United States.',
       'At AB4 Academy, Juan brings his experience and knowledge to contribute to the comprehensive development of young athletes, working on strengthening their fundamentals, competitive mindset, discipline, and preparation to advance to higher levels of competition.',
+    ],
+    // Rafael Bio
+    rafaelBioTag: 'Professional Career',
+    rafaelBioTitle: 'Rafael Lazo',
+    rafaelBioRole: 'Pitching Coach | Professional Baseball Experience',
+    rafaelBioParagraphs: [
+      'Rafael Lazo is a former Venezuelan professional pitcher with experience within the New York Mets organization and an extensive career as a Pitching Coach in the Toronto Blue Jays development system.',
+      'For several years he worked with different Toronto affiliates, including the Dominican Summer League, Gulf Coast League, and Bluefield Blue Jays, directly participating in the training and development of professional pitchers.',
+      'Currently, as Pitching Coach of AB4 Academy, Rafael brings his experience in pitching mechanics, preparation, fundamentals, and comprehensive pitcher development, helping athletes build a solid foundation to compete at higher levels.',
     ],
     // Footer
     footerDesc: '⚾ Elite youth baseball development program in Tampa, Florida. Developing elite athletes and leaders of character.',
@@ -922,6 +940,8 @@ function About() {
       name: 'Rafael Lazo',
       role: c.teamPitching,
       photo: '/staff-rafael.jpg',
+      bioRole: c.rafaelBioRole,
+      bio: c.rafaelBioParagraphs,
     },
     {
       name: 'Warner Dipre',
