@@ -203,6 +203,15 @@ const t = {
       { icon: '🇻🇪', label: 'Tigres de Aragua' },
     ],
     alejandroBioClosing: 'Professional Experience. Player Development. Leadership. Discipline.',
+    // Juan Bio
+    juanBioTag: 'Trayectoria Profesional',
+    juanBioTitle: 'Juan Muñoz',
+    juanBioRole: 'Coach | Experiencia en Béisbol Universitario',
+    juanBioParagraphs: [
+      'Juan Muñoz cuenta con experiencia en el béisbol universitario en Estados Unidos, donde desarrolló su conocimiento del juego en un entorno competitivo y de alto nivel.',
+      'Durante su trayectoria, adquirió experiencia en fundamentos técnicos, disciplina deportiva, preparación física y comprensión del juego, además de conocer de primera mano las exigencias y el nivel de competencia del baseball universitario en Estados Unidos.',
+      'En AB4 Academy, Juan aporta su experiencia y conocimiento para contribuir al desarrollo integral de jóvenes atletas, trabajando en el fortalecimiento de sus fundamentos, mentalidad competitiva, disciplina y preparación para avanzar hacia niveles superiores de competencia.',
+    ],
     // Footer
     footerDesc: '⚾ Programa de desarrollo de béisbol juvenil de élite en Tampa, Florida. Desarrollando atletas y líderes de carácter.',
     footerPrograms: '⚾ Programas',
@@ -397,6 +406,15 @@ const t = {
       { icon: '🇻🇪', label: 'Tigres de Aragua' },
     ],
     alejandroBioClosing: 'Professional Experience. Player Development. Leadership. Discipline.',
+    // Juan Bio
+    juanBioTag: 'Professional Career',
+    juanBioTitle: 'Juan Muñoz',
+    juanBioRole: 'Coach | College Baseball Experience',
+    juanBioParagraphs: [
+      'Juan Muñoz has experience in college baseball in the United States, where he developed his knowledge of the game in a competitive and high-level environment.',
+      'During his career, he gained experience in technical fundamentals, sports discipline, physical preparation, and understanding of the game, as well as first-hand knowledge of the demands and competition level of college baseball in the United States.',
+      'At AB4 Academy, Juan brings his experience and knowledge to contribute to the comprehensive development of young athletes, working on strengthening their fundamentals, competitive mindset, discipline, and preparation to advance to higher levels of competition.',
+    ],
     // Footer
     footerDesc: '⚾ Elite youth baseball development program in Tampa, Florida. Developing elite athletes and leaders of character.',
     footerPrograms: '⚾ Programs',
@@ -914,6 +932,8 @@ function About() {
       name: 'Juan José Muñoz',
       role: c.teamUtility,
       photo: '/staff-juan.jpg',
+      bioRole: c.juanBioRole,
+      bio: c.juanBioParagraphs,
     },
     {
       name: 'Lic. Lilian Ibáñez Grico',
