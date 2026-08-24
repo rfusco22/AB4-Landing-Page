@@ -1115,7 +1115,7 @@ function About() {
                     {/* Bio */}
                     {allStaff[selectedCoach].bio ? (
                       <div className="space-y-2 sm:space-y-3 overflow-y-auto pr-1 flex-1 min-h-0">
-                        {allStaff[selectedCoach].bio.slice(0, 2).map((p: string, i: number) => (
+                        {allStaff[selectedCoach].bio.map((p: string, i: number) => (
                           <p key={i} className="text-gray-600 leading-relaxed text-[11px] sm:text-xs">{p}</p>
                         ))}
                       </div>
