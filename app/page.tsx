@@ -177,23 +177,13 @@ const t = {
     // Founder Bio
     founderBioTag: 'Trayectoria Profesional',
     founderBioTitle: 'Andrés Eloy Blanco',
+    founderBioRole: 'Founder & Director | Former MLB Player',
+    founderBioBorn: 'Nacido: 11 de abril de 1984 | Venezuela',
     founderBioParagraphs: [
-      'Andrés Eloy Blanco es un exjugador profesional de béisbol venezolano con una extensa trayectoria dentro del béisbol organizado de los Estados Unidos, incluyendo 10 temporadas en Major League Baseball (MLB).',
-      'Su carrera profesional comenzó en el año 2000, cuando fue firmado por la organización de los Kansas City Royals. Luego de desarrollarse dentro de las ligas menores, avanzó rápidamente gracias a sus habilidades defensivas, disciplina y versatilidad en el cuadro interior. En 2004 fue reconocido como uno de los mejores campocortos defensivos de su liga y seleccionado para participar en el prestigioso MLB Futures Game, antes de hacer su debut en Grandes Ligas ese mismo año.',
-      'Blanco debutó en Major League Baseball en abril de 2004 con los Kansas City Royals. A lo largo de su carrera en MLB vistió los uniformes de los Kansas City Royals, Chicago Cubs, Texas Rangers y Philadelphia Phillies, desempeñándose en las diferentes posiciones del infield: shortstop, segunda base, tercera base y primera base. Durante su carrera realizó 278 aperturas en Grandes Ligas en las cuatro posiciones del cuadro interior, demostrando una de las cualidades que más lo caracterizó como jugador: su versatilidad defensiva.',
-      'Entre sus etapas más destacadas se encuentra su paso por los Philadelphia Phillies, organización con la que permaneció cuatro temporadas en Grandes Ligas. En 2015 tuvo una de las mejores temporadas de su carrera, estableciendo marcas personales en juegos disputados, hits, dobles, triples, cuadrangulares, carreras impulsadas y carreras anotadas. También se destacó como bateador emergente entre los mejores de Major League Baseball esa temporada.',
-      'En 2016 recibió el MLBPAA Phillies Heart and Hustle Award, reconocimiento que distingue a jugadores que representan pasión por el juego, esfuerzo, dedicación y respeto por la tradición del béisbol.',
-      'Al finalizar su carrera en MLB acumuló 305 hits, 18 home runs, 109 carreras impulsadas, 137 carreras anotadas y un promedio de bateo de .256 en temporada regular. Su último juego de Grandes Ligas fue con Philadelphia en 2017, aunque continuó su carrera profesional posteriormente dentro de organizaciones como San Francisco Giants, Milwaukee Brewers y Atlanta Braves, además de su experiencia en el béisbol profesional venezolano.',
-      'Después de una carrera construida durante casi dos décadas dentro del béisbol profesional, Andrés trasladó toda esa experiencia hacia una nueva etapa: la formación y desarrollo de jóvenes atletas.',
-      'Hoy, esa experiencia constituye una parte fundamental de la filosofía de AB4 Academy, donde el objetivo va más allá de enseñar fundamentos de béisbol. Su conocimiento del juego, su recorrido desde las ligas menores hasta Major League Baseball y los desafíos enfrentados durante una carrera profesional le permiten transmitir a las nuevas generaciones principios de disciplina, preparación, responsabilidad, perseverancia, competitividad y respeto por el juego.',
-    ],
-    founderBioStats: [
-      { num: '10', label: 'Temporadas en MLB' },
-      { num: '305', label: 'Hits en MLB' },
-      { num: '18', label: 'Home Runs' },
-      { num: '109', label: 'Carreras Impulsadas' },
-      { num: '.256', label: 'Promedio de Bateo' },
-      { num: '278', label: 'Aperturas en Infield' },
+      'Nativo de Venezuela, Andrés Eloy Blanco construyó una destacada trayectoria en el béisbol profesional, disputando 10 temporadas en Major League Baseball (MLB) con organizaciones como Kansas City Royals, Chicago Cubs, Texas Rangers y Philadelphia Phillies.',
+      'Reconocido por su versatilidad como infielder, sólidos fundamentos defensivos y profundo conocimiento del juego, Andrés ha dedicado gran parte de su vida al béisbol y a la formación de nuevas generaciones de atletas.',
+      'Su compromiso con el desarrollo de jugadores comenzó en Venezuela, donde fundó y dirigió AB4 Academy durante siete años, formando jóvenes talentos que continuaron avanzando en sus carreras y de los cuales varios se encuentran actualmente dentro del béisbol profesional.',
+      'Hoy, como Founder & Director de AB4 Academy en Estados Unidos, continúa compartiendo la experiencia adquirida a lo largo de su carrera, con una visión que trasciende el terreno de juego. Su enfoque está orientado a formar atletas con disciplina, carácter, responsabilidad, respeto y compromiso, entendiendo que el verdadero desarrollo de un jugador también implica prepararlo para asumir con madurez las oportunidades, los retos y las responsabilidades que encontrará dentro y fuera del béisbol.',
     ],
     founderBioTeams: 'Kansas City Royals · Chicago Cubs · Texas Rangers · Philadelphia Phillies',
     founderBioClosing: 'Developing Athletes. Building Character. Pursuing Excellence.',
@@ -386,23 +376,13 @@ const t = {
     // Founder Bio
     founderBioTag: 'Professional Career',
     founderBioTitle: 'Andrés Eloy Blanco',
+    founderBioRole: 'Founder & Director | Former MLB Player',
+    founderBioBorn: 'Born: April 11, 1984 | Venezuela',
     founderBioParagraphs: [
-      'Andrés Eloy Blanco is a former Venezuelan professional baseball player with an extensive career in organized baseball in the United States, including 10 seasons in Major League Baseball (MLB).',
-      'His professional career began in 2000 when he was signed by the Kansas City Royals organization. After developing in the minor leagues, he advanced quickly thanks to his defensive skills, discipline, and versatility in the infield. In 2004, he was recognized as one of the best defensive shortstops in his league and selected to participate in the prestigious MLB Futures Game before making his Major League debut that same year.',
-      'Blanco debuted in Major League Baseball in April 2004 with the Kansas City Royals. Throughout his MLB career, he wore the uniforms of the Kansas City Royals, Chicago Cubs, Texas Rangers, and Philadelphia Phillies, playing various infield positions: shortstop, second base, third base, and first base. During his career, he made 278 Major League starts at all four infield positions, demonstrating one of the qualities that most defined him as a player: his defensive versatility.',
-      'Among his most notable stints was his time with the Philadelphia Phillies, an organization with which he spent four Major League seasons. In 2015, he had one of the best seasons of his career, setting personal records in games played, hits, doubles, triples, home runs, RBIs, and runs scored. He also stood out as one of the top pinch hitters in Major League Baseball that season.',
-      'In 2016, he received the MLBPAA Phillies Heart and Hustle Award, a recognition that distinguishes players who represent passion for the game, effort, dedication, and respect for the tradition of baseball.',
-      'At the end of his MLB career, he accumulated 305 hits, 18 home runs, 109 RBIs, 137 runs scored, and a .256 batting average in regular season play. His last Major League game was with Philadelphia in 2017, though he continued his professional career with organizations such as the San Francisco Giants, Milwaukee Brewers, and Atlanta Braves, in addition to his experience in Venezuelan professional baseball.',
-      'After a career built over nearly two decades in professional baseball, Andrés transferred all that experience to a new chapter: training and developing young athletes.',
-      'Today, that experience is a fundamental part of AB4 Academy\'s philosophy, where the goal goes beyond teaching baseball fundamentals. His knowledge of the game, his journey from the minor leagues to Major League Baseball, and the challenges faced during a professional career allow him to transmit to the next generation principles of discipline, preparation, responsibility, perseverance, competitiveness, and respect for the game.',
-    ],
-    founderBioStats: [
-      { num: '10', label: 'MLB Seasons' },
-      { num: '305', label: 'MLB Hits' },
-      { num: '18', label: 'Home Runs' },
-      { num: '109', label: 'RBIs' },
-      { num: '.256', label: 'Batting Average' },
-      { num: '278', label: 'Infield Starts' },
+      'A native of Venezuela, Andrés Eloy Blanco built a distinguished career in professional baseball, playing 10 seasons in Major League Baseball (MLB) with organizations such as the Kansas City Royals, Chicago Cubs, Texas Rangers, and Philadelphia Phillies.',
+      'Recognized for his versatility as an infielder, solid defensive fundamentals, and deep knowledge of the game, Andrés has dedicated much of his life to baseball and to developing new generations of athletes.',
+      'His commitment to player development began in Venezuela, where he founded and directed AB4 Academy for seven years, training young talents who continued to advance in their careers, with several currently playing professional baseball.',
+      'Today, as Founder & Director of AB4 Academy in the United States, he continues to share the experience gained throughout his career, with a vision that transcends the field. His approach is focused on developing athletes with discipline, character, responsibility, respect, and commitment, understanding that true player development also involves preparing them to maturely handle the opportunities, challenges, and responsibilities they will encounter both on and off the field.',
     ],
     founderBioTeams: 'Kansas City Royals · Chicago Cubs · Texas Rangers · Philadelphia Phillies',
     founderBioClosing: 'Developing Athletes. Building Character. Pursuing Excellence.',
@@ -909,8 +889,9 @@ function About() {
       role: c.teamFounder,
       desc: c.teamFounderDesc,
       photo: '/A_Blanco.JPG',
+      bioRole: c.founderBioRole,
+      bioBorn: c.founderBioBorn,
       bio: c.founderBioParagraphs,
-      stats: c.founderBioStats,
       teams: c.founderBioTeams,
       closing: c.founderBioClosing,
     },
@@ -1109,15 +1090,13 @@ function About() {
                       {allStaff[selectedCoach].name}
                     </h3>
 
-                    {/* Stats if available */}
-                    {allStaff[selectedCoach].stats && (
-                      <div className="grid grid-cols-3 gap-2 sm:gap-3 mb-6 sm:mb-8">
-                        {allStaff[selectedCoach].stats.map((stat: { num: string; label: string }, i: number) => (
-                          <div key={i} className="text-center p-2 sm:p-3 rounded-xl bg-brand-gray-light">
-                            <div className="text-lg sm:text-xl font-black text-brand-red">{stat.num}</div>
-                            <div className="text-[8px] sm:text-[9px] text-gray-500 leading-tight">{stat.label}</div>
-                          </div>
-                        ))}
+                    {/* Role & Born */}
+                    {allStaff[selectedCoach].bioRole && (
+                      <div className="mb-4 sm:mb-6">
+                        <p className="text-sm sm:text-base font-semibold text-brand-black">{allStaff[selectedCoach].bioRole}</p>
+                        {allStaff[selectedCoach].bioBorn && (
+                          <p className="text-xs sm:text-sm text-gray-500 mt-1">{allStaff[selectedCoach].bioBorn}</p>
+                        )}
                       </div>
                     )}
 
