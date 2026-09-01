@@ -843,6 +843,16 @@ function BaseballGallery() {
       caption: lang === 'es' ? 'Espíritu de Campeones' : 'Championship Spirit'
     },
     {
+      src: '/academy/gallery-champions-2.jpg',
+      alt: 'AB4 Academy team celebrating a national championship',
+      caption: lang === 'es' ? 'Campeones Nacionales' : 'National Champions'
+    },
+    {
+      src: '/academy/gallery-championship-day.jpg',
+      alt: 'AB4 Academy team at the ballpark on championship day',
+      caption: lang === 'es' ? 'Día de Campeonato' : 'Championship Day'
+    },
+    {
       src: '/academy/gallery-strength.jpg',
       alt: 'AB4 Academy strength training',
       caption: lang === 'es' ? 'Fuerza y Acondicionamiento' : 'Strength & Conditioning'
