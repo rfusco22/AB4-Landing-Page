@@ -20,38 +20,38 @@ function useSetLang() {
 const t = {
   es: {
     nav: ['Inicio', 'Quiénes Somos', 'Programas', 'Eventos', 'Contacto'],
-    heroTag: '⚾ Béisbol Juvenil de Élite · Tampa, FL',
+    heroTag: 'Béisbol Juvenil de Élite · Tampa, FL',
     heroTitle1: 'Entrena.',
     heroTitle2: 'Desarróllate.',
     heroTitle3: 'Compite.',
     heroSub: 'Un programa integral de desarrollo de béisbol creado para preparar a estudiantes-atletas para alcanzar el siguiente nivel.',
-    heroCta1: '🏟️ Conoce Nuestros Programas',
-    heroCta2: '📞 Contáctanos',
-    stat1Num: '200+', stat1Label: '⚾ Atletas Activos',
-    stat2Num: 'Tampa', stat2Label: '🌴 Florida',
-    stat3Num: 'Elite', stat3Label: '🏆 Entrenamiento',
+    heroCta1: 'Conoce Nuestros Programas',
+    heroCta2: 'Contáctanos',
+    stat1Num: '200+', stat1Label: 'Atletas Activos',
+    stat2Num: 'Tampa', stat2Label: 'Florida',
+    stat3Num: 'Elite', stat3Label: 'Entrenamiento',
     // About
-    aboutTag: '⚾ Quiénes Somos',
+    aboutTag: 'Quiénes Somos',
     aboutTitle: 'Más que béisbol.',
     aboutP1: 'AB4 Academy es un programa de desarrollo creado alrededor del estudiante-atleta.',
     aboutP2: 'Proporcionamos un entorno donde el béisbol, la educación, la estructura y el crecimiento personal trabajan en conjunto para preparar a cada atleta para su próximo paso.',
     // Mission & Vision
-    missionTag: '🎯 Nuestra Misión',
-    missionTitle: '🎯 Misión',
+    missionTag: 'Nuestra Misión',
+    missionTitle: 'Misión',
     missionText: 'Desarrollar atletas con propósito, proporcionando entrenamiento de alto nivel, apoyo académico, orientación y exposición, mientras los preparamos para buscar oportunidades universitarias y alcanzar el éxito más allá del terreno de juego.',
-    visionTitle: '👁️ Visión',
+    visionTitle: 'Visión',
     visionText: 'Crear un camino donde el talento encuentre oportunidades, construyendo un programa reconocido por desarrollar atletas, abrir puertas hacia el siguiente nivel y generar oportunidades que trasciendan el béisbol.',
     // Why AB4
-    whyTag: '💪 ¿Por Qué AB4?',
+    whyTag: '¿Por Qué AB4?',
     whyTitle: 'Construido desde la experiencia. Enfocado en el futuro.',
     whyCards: [
-      { title: '🏆 Coaching de Nivel Profesional', desc: 'Aprende de coaches con experiencia como jugadores profesionales.' },
-      { title: '📈 Desarrollo Integral', desc: 'Atleta. Estudiante. Persona.' },
-      { title: '🎓 Camino hacia College', desc: 'Preparación. Exposición. Oportunidad.' },
-      { title: '🌟 Más Allá del Béisbol', desc: 'Disciplina. Carácter. Futuro.' },
+      { title: 'Coaching de Nivel Profesional', desc: 'Aprende de coaches con experiencia como jugadores profesionales.' },
+      { title: 'Desarrollo Integral', desc: 'Atleta. Estudiante. Persona.' },
+      { title: 'Camino hacia College', desc: 'Preparación. Exposición. Oportunidad.' },
+      { title: 'Más Allá del Béisbol', desc: 'Disciplina. Carácter. Futuro.' },
     ],
     // Programs
-    progTag: '⚾ Programas',
+    progTag: 'Programas',
     progSectionTitle: 'Nuestros Programas',
     progSectionSub: 'Rutas de entrenamiento diseñadas para cada nivel del estudiante-atleta.',
     progTitle: 'AB4 Homeschool Baseball Program',
@@ -60,20 +60,20 @@ const t = {
     progScheduleLabel: 'Horario',
     progSchedule: 'Lunes – Viernes',
     progScheduleTime: '8:00 AM – 2:00 PM',
-    progWhatsIncluded: '⚾ QUÉ INCLUYE',
+    progWhatsIncluded: 'QUÉ INCLUYE',
     progFeatures: [
-      '⚾ Entrenamiento Profesional de Béisbol',
-      '🏏 Desarrollo de Bateo',
+      'Entrenamiento Profesional de Béisbol',
+      'Desarrollo de Bateo',
       '🧤 Desarrollo de Fildeo',
-      '🎯 Entrenamiento Específico por Posición',
-      '💪 Fuerza y Acondicionamiento',
-      '🏃 Desarrollo de Rendimiento Atlético',
-      '📊 Evaluaciones de Atletas y Seguimiento de Progreso',
-      '📚 Tiempo Académico Estructurado',
-      '📖 Apoyo Académico Disponible',
-      '👨‍🏫 Staff de Coaches Profesionales – Experiencia en MLB',
-      '🔄 Opciones Flexibles de Programa',
-      '✅ Proveedor Step Up',
+      'Entrenamiento Específico por Posición',
+      'Fuerza y Acondicionamiento',
+      'Desarrollo de Rendimiento Atlético',
+      'Evaluaciones de Atletas y Seguimiento de Progreso',
+      'Tiempo Académico Estructurado',
+      'Apoyo Académico Disponible',
+      'Staff de Coaches Profesionales – Experiencia en MLB',
+      'Opciones Flexibles de Programa',
+      'Proveedor Step Up',
     ],
     progMoreInfo: 'MÁS INFORMACIÓN',
     progMoreInfoText: '¿Interesado en conocer más sobre el programa?',
@@ -92,7 +92,7 @@ const t = {
     progCta: 'Solicitar Información del Programa',
     progDisclaimer: 'AB4 Academy es un programa de desarrollo atlético y no es una escuela. Los estudiantes-atletas mantienen su inscripción con el proveedor educativo de su elección.',
     // HS Performance Program
-    hsProgTag: '⚾ Programas',
+    hsProgTag: 'Programas',
     hsProgTitle: 'High School Performance Program',
     hsProgSub: 'Juniors y Seniors de High School',
     hsProgPrice: 'Desde $400/mes',
@@ -101,15 +101,15 @@ const t = {
     hsProgScheduleTime: '1:00 PM – 3:00 PM',
     hsProgOptionsLabel: 'Opciones de Entrenamiento',
     hsProgOptions: ['2–3 Días por Semana', '2 Horas de Entrenamiento por Sesión'],
-    hsProgWhatsIncluded: '⚾ QUÉ INCLUYE',
+    hsProgWhatsIncluded: 'QUÉ INCLUYE',
     hsProgFeatures: [
-      '🏏 Desarrollo de Bateo',
+      'Desarrollo de Bateo',
       '🧤 Desarrollo de Fildeo',
-      '🔄 Desarrollo de Habilidades y Repetición',
-      '🎯 Trabajo Defensivo Específico por Posición',
-      '💪 Desarrollo de Rendimiento Atlético',
-      '👨‍🏫 Staff de Coaches Profesionales – Experiencia en MLB',
-      '🏋️ Entorno de Entrenamiento Enfocado en Rendimiento',
+      'Desarrollo de Habilidades y Repetición',
+      'Trabajo Defensivo Específico por Posición',
+      'Desarrollo de Rendimiento Atlético',
+      'Staff de Coaches Profesionales – Experiencia en MLB',
+      'Entorno de Entrenamiento Enfocado en Rendimiento',
     ],
     hsProgMoreInfo: 'MÁS INFORMACIÓN',
     hsProgMoreInfoText: '¿Interesado en conocer más sobre el programa?',
@@ -124,60 +124,60 @@ const t = {
     hsProgFormSend: 'Solicitar Información',
     hsProgFormSent: '¡Información Solicitada!',
     // Events
-    eventTag: '📅 Eventos',
+    eventTag: 'Eventos',
     eventTitle: 'Oportunidades de béisbol durante todo el año.',
     events: [
-      { name: '🌸 Spring Break Camp', month: 'Marzo' },
-      { name: '☀️ Summer Camp', month: 'Junio – Julio' },
-      { name: '⚾ Summer Team', month: 'Solo High School' },
-      { name: '🦃 Thanksgiving Camp', month: 'Noviembre' },
-      { name: '❄️ Winter Camp', month: 'Diciembre' },
+      { name: 'Spring Break Camp', month: 'Marzo' },
+      { name: 'Summer Camp', month: 'Junio – Julio' },
+      { name: 'Summer Team', month: 'Solo High School' },
+      { name: 'Thanksgiving Camp', month: 'Noviembre' },
+      { name: 'Winter Camp', month: 'Diciembre' },
     ],
-    eventRegTitle: '📋 Próximos Registros',
-    eventReg1: '🦃 Thanksgiving Camp',
-    eventReg2: '❄️ Winter Camp',
-    eventRegCta: '📝 Regístrate Ahora',
+    eventRegTitle: 'Próximos Registros',
+    eventReg1: 'Thanksgiving Camp',
+    eventReg2: 'Winter Camp',
+    eventRegCta: 'Regístrate Ahora',
     // CTA
-    ctaTitle: '⚾ Da el Primer Paso.',
+    ctaTitle: 'Da el Primer Paso.',
     ctaSub: 'Únete a AB4 Academy y desarrolla tu máximo potencial en béisbol.',
-    ctaCta: '📞 Contáctanos Hoy',
+    ctaCta: 'Contáctanos Hoy',
     ctaFreeClassText: '¿Quieres conocer nuestro trabajo?',
-    ctaFreeClassCta: '🎓 Programa una Clase Gratis',
+    ctaFreeClassCta: 'Programa una Clase Gratis',
     // Contact
-    contactTag: '📞 Contacto',
+    contactTag: 'Contacto',
     contactTitle: 'Hablemos',
     contactName: 'Nombre Completo',
     contactEmail: 'Correo Electrónico',
     contactPhone: 'Teléfono',
     contactInterest: '¿Qué te interesa?',
-    interestOptions: ['📋 Evaluación', 'Full-Time', 'Part-Time', 'High School Performance', '🏕️ Campamento', 'Otro'],
+    interestOptions: ['Evaluación', 'Full-Time', 'Part-Time', 'High School Performance', 'Campamento', 'Otro'],
     contactMsg: 'Mensaje (Opcional)',
-    contactSend: '📤 Enviar Mensaje',
-    contactSent: '✅ ¡Mensaje Enviado!',
-    contactLocation: '📍 Ubicación',
+    contactSend: 'Enviar Mensaje',
+    contactSent: '¡Mensaje Enviado!',
+    contactLocation: 'Ubicación',
     contactLocationVal: '5901 W Linebaugh Ave, Tampa, FL 33624',
-    contactPhoneLabel: '📞 Teléfono',
+    contactPhoneLabel: 'Teléfono',
     contactPhoneVal: '+1 (813) 555-AB4',
-    contactEmailLabel: '✉️ Correo Electrónico',
+    contactEmailLabel: 'Correo Electrónico',
     contactEmailVal: 'admin@ab4academytampa.com',
     contactEmailFinance: 'finance@ab4academytampa.com',
     contactEmailParents: 'parents@ab4academytampa.com',
-    contactHours: '🕐 Horario',
+    contactHours: 'Horario',
     contactHoursVal: 'Lun - Vie: 8AM - 3PM',
     // Team
-    teamTag: '👥 Nuestro Equipo',
+    teamTag: 'Nuestro Equipo',
     teamTitle: 'Conoce a Nuestro Staff',
     teamSub: 'Profesionales con experiencia en las ligas mayores comprometidos con el desarrollo de tu atleta.',
-    teamFounder: '🏆 Fundador & CEO',
+    teamFounder: 'Fundador & CEO',
     teamFounderDesc: 'Ex-Jugador de Béisbol Profesional MLB',
-    teamOps: '📋 Director de Operaciones',
+    teamOps: 'Director de Operaciones',
     teamOpsDesc: 'Ex-Jugador de Béisbol Profesional',
-    teamGeneral: '🎯 Coordinador General',
+    teamGeneral: 'Coordinador General',
     teamCatching: '🧤 Instructor de Catching',
-    teamPitching: '⚾ Coach de Pitcheo',
-    teamInfield: '🏟️ Coach de Infield',
-    teamUtility: '🔄 Coach Multiposición',
-    teamEducation: '📚 Tutoría Educativa',
+    teamPitching: 'Coach de Pitcheo',
+    teamInfield: 'Coach de Infield',
+    teamUtility: 'Coach Multiposición',
+    teamEducation: 'Tutoría Educativa',
     // Founder Bio
     founderBioTag: 'Trayectoria Profesional',
     founderBioTitle: 'Andrés Eloy Blanco',
@@ -201,10 +201,10 @@ const t = {
       'Actualmente es Owner y Coach de AB4 Academy, además de propietario de Diamond Elite, organización de travel baseball dedicada al desarrollo y competencia de jugadores en diferentes categorías. Su experiencia, conocimiento del juego y enfoque en la disciplina y los fundamentos son parte esencial de su trabajo con cada atleta.',
     ],
     alejandroBioHighlights: [
-      { icon: '⚾', label: 'Catcher Profesional' },
-      { icon: '🏟️', label: 'New York Yankees (MiLB)' },
-      { icon: '🏆', label: 'Triple-A Experience' },
-      { icon: '🇻🇪', label: 'Tigres de Aragua' },
+      { icon: '', label: 'Catcher Profesional' },
+      { icon: '', label: 'New York Yankees (MiLB)' },
+      { icon: '', label: 'Triple-A Experience' },
+      { icon: '', label: 'Tigres de Aragua' },
     ],
     alejandroBioClosing: 'Experiencia Profesional. Desarrollo de Jugadores. Liderazgo. Disciplina.',
     // Juan Bio
@@ -245,51 +245,51 @@ const t = {
       'Su experiencia y vocación aportan una visión integral al programa, promoviendo en cada estudiante disciplina, responsabilidad, autonomía y compromiso con su futuro académico y personal.',
     ],
     // Ronald Bio
-    teamRonald: '⚾ Coach',
+    teamRonald: 'Coach',
     ronaldBioRole: 'Coach | Ex-Jugador de MLB',
     // Footer
-    footerDesc: '⚾ Programa de desarrollo de béisbol juvenil de élite en Tampa, Florida. Desarrollando atletas y líderes de carácter.',
-    footerPrograms: '⚾ Programas',
-    footerCompany: '🏢 Empresa',
-    footerLegal: '📜 Legal',
-    footerCompanyLinks: ['👥 Quiénes Somos', '📅 Eventos', '⚾ Programas', '📞 Contacto'],
-    footerLegalLinks: ['🔒 Política de Privacidad', '📋 Términos y Condiciones'],
+    footerDesc: 'Programa de desarrollo de béisbol juvenil de élite en Tampa, Florida. Desarrollando atletas y líderes de carácter.',
+    footerPrograms: 'Programas',
+    footerCompany: 'Empresa',
+    footerLegal: 'Legal',
+    footerCompanyLinks: ['Quiénes Somos', 'Eventos', 'Programas', 'Contacto'],
+    footerLegalLinks: ['Política de Privacidad', 'Términos y Condiciones'],
     footerCopy: '© 2026 AB4 Academy. Todos los derechos reservados.',
   },
   en: {
     nav: ['Home', 'Who We Are', 'Programs', 'Events', 'Contact'],
-    heroTag: '⚾ Elite Youth Baseball · Tampa, FL',
+    heroTag: 'Elite Youth Baseball · Tampa, FL',
     heroTitle1: 'Train.',
     heroTitle2: 'Develop.',
     heroTitle3: 'Compete.',
     heroSub: 'A complete baseball development program built to prepare student-athletes for the next level.',
-    heroCta1: '🏟️ Explore Our Programs',
-    heroCta2: '📞 Contact Us',
-    stat1Num: '200+', stat1Label: '⚾ Active Athletes',
-    stat2Num: 'Tampa', stat2Label: '🌴 Florida',
-    stat3Num: 'Elite', stat3Label: '🏆 Training',
+    heroCta1: 'Explore Our Programs',
+    heroCta2: 'Contact Us',
+    stat1Num: '200+', stat1Label: 'Active Athletes',
+    stat2Num: 'Tampa', stat2Label: 'Florida',
+    stat3Num: 'Elite', stat3Label: 'Training',
     // About
-    aboutTag: '⚾ Who We Are',
+    aboutTag: 'Who We Are',
     aboutTitle: 'More Than Baseball.',
     aboutP1: 'AB4 Academy is a development program built around the student-athlete.',
     aboutP2: 'We provide an environment where baseball, education, structure, and personal growth work together to prepare each athlete for what comes next.',
     // Mission & Vision
-    missionTag: '🎯 Our Mission',
-    missionTitle: '🎯 Mission',
+    missionTag: 'Our Mission',
+    missionTitle: 'Mission',
     missionText: 'To develop athletes with purpose — providing high-level training, academic support, guidance, and exposure while preparing them to pursue college opportunities and succeed beyond the game.',
-    visionTitle: '👁️ Vision',
+    visionTitle: 'Vision',
     visionText: 'To create a pathway where talent meets opportunity — building a program recognized for developing athletes, opening doors to the next level, and creating opportunities that extend beyond baseball.',
     // Why AB4
-    whyTag: '💪 Why AB4?',
+    whyTag: 'Why AB4?',
     whyTitle: 'Built by Experience. Focused on the Future.',
     whyCards: [
-      { title: '🏆 Professional-Level Coaching', desc: 'Learn from coaches with professional playing experience.' },
-      { title: '📈 Complete Development', desc: 'Athlete. Student. Person.' },
-      { title: '🎓 College Pathway', desc: 'Preparation. Exposure. Opportunity.' },
-      { title: '🌟 Beyond Baseball', desc: 'Discipline. Character. Future.' },
+      { title: 'Professional-Level Coaching', desc: 'Learn from coaches with professional playing experience.' },
+      { title: 'Complete Development', desc: 'Athlete. Student. Person.' },
+      { title: 'College Pathway', desc: 'Preparation. Exposure. Opportunity.' },
+      { title: 'Beyond Baseball', desc: 'Discipline. Character. Future.' },
     ],
     // Programs
-    progTag: '⚾ Programs',
+    progTag: 'Programs',
     progSectionTitle: 'Our Programs',
     progSectionSub: 'Training pathways designed for every level of the student-athlete.',
     progTitle: 'AB4 Homeschool Baseball Program',
@@ -298,20 +298,20 @@ const t = {
     progScheduleLabel: 'Schedule',
     progSchedule: 'Monday – Friday',
     progScheduleTime: '8:00 AM – 2:00 PM',
-    progWhatsIncluded: "⚾ WHAT'S INCLUDED",
+    progWhatsIncluded: "WHAT'S INCLUDED",
     progFeatures: [
-      '⚾ Professional Baseball Training',
-      '🏏 Batting Development',
+      'Professional Baseball Training',
+      'Batting Development',
       '🧤 Fielding Development',
-      '🎯 Position-Specific Training',
-      '💪 Strength & Conditioning',
-      '🏃 Athletic Performance Development',
-      '📊 Athlete Evaluations & Progress Tracking',
-      '📚 Structured Academic Time',
-      '📖 Academic Support Available',
-      '👨‍🏫 Professional Coaching Staff – MLB Experience',
-      '🔄 Flexible Program Options',
-      '✅ Step Up Provider',
+      'Position-Specific Training',
+      'Strength & Conditioning',
+      'Athletic Performance Development',
+      'Athlete Evaluations & Progress Tracking',
+      'Structured Academic Time',
+      'Academic Support Available',
+      'Professional Coaching Staff – MLB Experience',
+      'Flexible Program Options',
+      'Step Up Provider',
     ],
     progMoreInfo: 'MORE INFORMATION',
     progMoreInfoText: 'Interested in learning more about the program?',
@@ -330,7 +330,7 @@ const t = {
     progCta: 'Request Program Information',
     progDisclaimer: 'AB4 Academy is an athletic development program and is not a school. Student-athletes maintain enrollment with their chosen educational provider.',
     // HS Performance Program
-    hsProgTag: '⚾ Programs',
+    hsProgTag: 'Programs',
     hsProgTitle: 'High School Performance Program',
     hsProgSub: 'Juniors & Seniors',
     hsProgPrice: 'Starting at $400/month',
@@ -339,15 +339,15 @@ const t = {
     hsProgScheduleTime: '1:00 PM – 3:00 PM',
     hsProgOptionsLabel: 'Training Options',
     hsProgOptions: ['2–3 Days Per Week', '2 Hours of Training Per Session'],
-    hsProgWhatsIncluded: "⚾ WHAT'S INCLUDED",
+    hsProgWhatsIncluded: "WHAT'S INCLUDED",
     hsProgFeatures: [
-      '🏏 Batting Development',
+      'Batting Development',
       '🧤 Fielding Development',
-      '🔄 Skill Development & Repetition',
-      '🎯 Position-Specific Defensive Work',
-      '💪 Athletic Performance Development',
-      '👨‍🏫 Professional Coaching Staff – MLB Experience',
-      '🏋️ Performance-Focused Training Environment',
+      'Skill Development & Repetition',
+      'Position-Specific Defensive Work',
+      'Athletic Performance Development',
+      'Professional Coaching Staff – MLB Experience',
+      'Performance-Focused Training Environment',
     ],
     hsProgMoreInfo: 'MORE INFORMATION',
     hsProgMoreInfoText: 'Interested in learning more about the program?',
@@ -362,60 +362,60 @@ const t = {
     hsProgFormSend: 'Request Information',
     hsProgFormSent: 'Information Requested!',
     // Events
-    eventTag: '📅 Events',
+    eventTag: 'Events',
     eventTitle: 'Baseball Opportunities Throughout the Year.',
     events: [
-      { name: '🌸 Spring Break Camp', month: 'March' },
-      { name: '☀️ Summer Camp', month: 'June – July' },
-      { name: '⚾ Summer Team', month: 'High School Only' },
-      { name: '🦃 Thanksgiving Camp', month: 'November' },
-      { name: '❄️ Winter Camp', month: 'December' },
+      { name: 'Spring Break Camp', month: 'March' },
+      { name: 'Summer Camp', month: 'June – July' },
+      { name: 'Summer Team', month: 'High School Only' },
+      { name: 'Thanksgiving Camp', month: 'November' },
+      { name: 'Winter Camp', month: 'December' },
     ],
-    eventRegTitle: '📋 Upcoming Registrations',
-    eventReg1: '🦃 Thanksgiving Camp',
-    eventReg2: '❄️ Winter Camp',
-    eventRegCta: '📝 Register Now',
+    eventRegTitle: 'Upcoming Registrations',
+    eventReg1: 'Thanksgiving Camp',
+    eventReg2: 'Winter Camp',
+    eventRegCta: 'Register Now',
     // CTA
-    ctaTitle: '⚾ Take the First Step.',
+    ctaTitle: 'Take the First Step.',
     ctaSub: 'Join AB4 Academy and develop your full potential in baseball.',
-    ctaCta: '📞 Contact Us Today',
+    ctaCta: 'Contact Us Today',
     ctaFreeClassText: 'Want to see our work up close?',
-    ctaFreeClassCta: '🎓 Schedule a Free Class',
+    ctaFreeClassCta: 'Schedule a Free Class',
     // Contact
-    contactTag: '📞 Contact',
+    contactTag: 'Contact',
     contactTitle: 'Let\'s Talk',
     contactName: 'Full Name',
     contactEmail: 'Email',
     contactPhone: 'Phone',
     contactInterest: 'What are you interested in?',
-    interestOptions: ['📋 Evaluation', 'Full-Time', 'Part-Time', 'High School Performance', '🏕️ Camp', 'Other'],
+    interestOptions: ['Evaluation', 'Full-Time', 'Part-Time', 'High School Performance', 'Camp', 'Other'],
     contactMsg: 'Message (Optional)',
-    contactSend: '📤 Send Message',
-    contactSent: '✅ Message Sent!',
-    contactLocation: '📍 Location',
+    contactSend: 'Send Message',
+    contactSent: 'Message Sent!',
+    contactLocation: 'Location',
     contactLocationVal: '5901 W Linebaugh Ave, Tampa, FL 33624',
-    contactPhoneLabel: '📞 Phone',
+    contactPhoneLabel: 'Phone',
     contactPhoneVal: '+1 (813) 555-AB4',
-    contactEmailLabel: '✉️ Email',
+    contactEmailLabel: 'Email',
     contactEmailVal: 'admin@ab4academytampa.com',
     contactEmailFinance: 'finance@ab4academytampa.com',
     contactEmailParents: 'parents@ab4academytampa.com',
-    contactHours: '🕐 Hours',
+    contactHours: 'Hours',
     contactHoursVal: 'Mon - Fri: 8AM - 3PM',
     // Team
-    teamTag: '👥 Our Team',
+    teamTag: 'Our Team',
     teamTitle: 'Meet Our Staff',
     teamSub: 'Professionals with major league experience committed to developing your athlete.',
-    teamFounder: '🏆 Founder & CEO',
+    teamFounder: 'Founder & CEO',
     teamFounderDesc: 'Former MLB Professional Baseball Player',
-    teamOps: '📋 Director of Operations',
+    teamOps: 'Director of Operations',
     teamOpsDesc: 'Former Professional Baseball Player',
-    teamGeneral: '🎯 General Coordinator',
+    teamGeneral: 'General Coordinator',
     teamCatching: '🧤 Catching Instructor',
-    teamPitching: '⚾ Pitching Coach',
-    teamInfield: '🏟️ Infield Coach',
-    teamUtility: '🔄 Utility Coach',
-    teamEducation: '📚 Educational Tutoring',
+    teamPitching: 'Pitching Coach',
+    teamInfield: 'Infield Coach',
+    teamUtility: 'Utility Coach',
+    teamEducation: 'Educational Tutoring',
     // Founder Bio
     founderBioTag: 'Professional Career',
     founderBioTitle: 'Andrés Eloy Blanco',
@@ -439,10 +439,10 @@ const t = {
       'He is currently Owner and Coach of AB4 Academy, as well as owner of Diamond Elite, a travel baseball organization dedicated to the development and competition of players in different categories. His experience, knowledge of the game, and focus on discipline and fundamentals are an essential part of his work with each athlete.',
     ],
     alejandroBioHighlights: [
-      { icon: '⚾', label: 'Professional Catcher' },
-      { icon: '🏟️', label: 'New York Yankees (MiLB)' },
-      { icon: '🏆', label: 'Triple-A Experience' },
-      { icon: '🇻🇪', label: 'Tigres de Aragua' },
+      { icon: '', label: 'Professional Catcher' },
+      { icon: '', label: 'New York Yankees (MiLB)' },
+      { icon: '', label: 'Triple-A Experience' },
+      { icon: '', label: 'Tigres de Aragua' },
     ],
     alejandroBioClosing: 'Professional Experience. Player Development. Leadership. Discipline.',
     // Juan Bio
@@ -483,15 +483,15 @@ const t = {
       'Her experience and vocation bring a comprehensive vision to the program, promoting in each student discipline, responsibility, autonomy, and commitment to their academic and personal future.',
     ],
     // Ronald Bio
-    teamRonald: '⚾ Coach',
+    teamRonald: 'Coach',
     ronaldBioRole: 'Coach | Former MLB Player',
     // Footer
-    footerDesc: '⚾ Elite youth baseball development program in Tampa, Florida. Developing elite athletes and leaders of character.',
-    footerPrograms: '⚾ Programs',
-    footerCompany: '🏢 Company',
-    footerLegal: '📜 Legal',
-    footerCompanyLinks: ['👥 Who We Are', '📅 Events', '⚾ Programs', '📞 Contact'],
-    footerLegalLinks: ['🔒 Privacy Policy', '📋 Terms & Conditions'],
+    footerDesc: 'Elite youth baseball development program in Tampa, Florida. Developing elite athletes and leaders of character.',
+    footerPrograms: 'Programs',
+    footerCompany: 'Company',
+    footerLegal: 'Legal',
+    footerCompanyLinks: ['Who We Are', 'Events', 'Programs', 'Contact'],
+    footerLegalLinks: ['Privacy Policy', 'Terms & Conditions'],
     footerCopy: '© 2026 AB4 Academy. All rights reserved.',
   },
 };
@@ -524,6 +524,42 @@ function BatIcon({ className = 'w-5 h-5' }: { className?: string }) {
       </g>
       <circle cx="17.6" cy="6.6" r="2.6" fill="currentColor" fillOpacity="0.2" stroke="currentColor" strokeWidth="1.2" />
       <path d="M16.3 5.2c.6.6.6 2.2 0 2.8M18.9 5.2c-.6.6-.6 2.2 0 2.8" stroke="currentColor" strokeWidth="0.8" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+// ============ CONTACT ICONS ============
+function PinIcon({ className = 'w-5 h-5' }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" className={className} fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M12 21s-7-6.2-7-11.5A7 7 0 0119 9.5C19 14.8 12 21 12 21z" />
+      <circle cx="12" cy="9.5" r="2.5" />
+    </svg>
+  );
+}
+
+function PhoneIcon({ className = 'w-5 h-5' }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" className={className} fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M4.5 4h3.5l1.5 4.5-2 1.5a12 12 0 006 6l1.5-2 4.5 1.5V19a2 2 0 01-2 2 16 16 0 01-14-14 2 2 0 012-2z" />
+    </svg>
+  );
+}
+
+function MailIcon({ className = 'w-5 h-5' }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" className={className} fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3.5 6.5l8.5 6 8.5-6" />
+    </svg>
+  );
+}
+
+function ClockIcon({ className = 'w-5 h-5' }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" className={className} fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="12" cy="12" r="9" />
+      <path d="M12 7v5l3.5 2" />
     </svg>
   );
 }
@@ -692,22 +728,8 @@ function Hero() {
         <div className="absolute bottom-0 left-0 w-[40%] h-[60%] bg-gradient-to-tr from-brand-red/5 to-transparent transform skew-x-[12deg] -translate-x-[10%]" />
       </div>
 
-      {/* Floating baseball emojis */}
-      <motion.div 
-        animate={{ y: [-20, 20, -20], rotate: [0, 10, -10, 0] }}
-        transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute top-[15%] right-[15%] text-4xl sm:text-6xl opacity-20 hidden lg:block"
-      >
-        ⚾
-      </motion.div>
-      <motion.div 
-        animate={{ y: [20, -20, 20], rotate: [0, -15, 15, 0] }}
-        transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute bottom-[25%] left-[10%] text-3xl sm:text-5xl opacity-15 hidden lg:block"
-      >
-        🏟️
-      </motion.div>
-      <motion.div 
+      {/* Floating baseball icon */}
+      <motion.div
         animate={{ y: [-15, 15, -15], scale: [1, 1.1, 1] }}
         transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
         className="absolute top-[40%] right-[5%] w-8 h-8 sm:w-12 sm:h-12 text-white opacity-10 hidden lg:block"
@@ -972,14 +994,6 @@ function BaseballGallery() {
                 )}
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4 sm:p-6">
                   <span className="text-white font-semibold text-sm sm:text-base">{img.caption}</span>
-                </div>
-                {/* Corner accent */}
-                <div className="absolute top-3 right-3 w-8 h-8 bg-brand-red/80 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  {img.video ? (
-                    <svg className="w-3.5 h-3.5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
-                  ) : (
-                    <span className="text-white text-xs">⚾</span>
-                  )}
                 </div>
                 {img.video && (
                   <div className="absolute top-3 left-3 flex items-center gap-1 bg-black/60 backdrop-blur-sm rounded-full px-2 py-1">
@@ -1253,7 +1267,6 @@ function About() {
                       <div className="flex flex-wrap gap-1.5 sm:gap-2 mb-3 sm:mb-4">
                         {allStaff[selectedCoach].highlights.map((h: { icon: string; label: string }, i: number) => (
                           <span key={i} className="inline-flex items-center gap-1 bg-brand-red/5 border border-brand-red/10 text-brand-black px-2 py-1 rounded-full text-[10px] sm:text-xs font-medium">
-                            <span>{h.icon}</span>
                             {h.label}
                           </span>
                         ))}
@@ -1315,9 +1328,7 @@ function WhyAb4() {
           {c.whyCards.map((card, i) => (
             <AnimatedSection key={i} delay={i * 0.1}>
               <div className="group p-6 sm:p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-brand-red/50 transition-all duration-500 hover:bg-white/10 h-full text-center">
-                <div className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mx-auto rounded-xl sm:rounded-2xl bg-brand-red/10 flex items-center justify-center text-brand-red mb-4 sm:mb-6 group-hover:bg-brand-red group-hover:text-white transition-all duration-300 text-2xl sm:text-3xl">
-                  {['⚾', '🏆', '🎓', '🌟'][i]}
-                </div>
+                <div className="w-8 h-8 sm:w-10 sm:h-10 mx-auto rounded-full bg-brand-red/10 group-hover:bg-brand-red transition-all duration-300 mb-4 sm:mb-6" />
                 <h3 className="text-base sm:text-lg font-bold text-white mb-2 sm:mb-3">{card.title}</h3>
                 <p className="text-white/60 leading-relaxed text-xs sm:text-sm">{card.desc}</p>
               </div>
@@ -1331,28 +1342,28 @@ function WhyAb4() {
 
 // ============ PHONE COUNTRY CODES ============
 const PHONE_COUNTRIES = [
-  { code: 'US', flag: '🇺🇸', dial: '+1', name: 'United States' },
-  { code: 'CA', flag: '🇨🇦', dial: '+1', name: 'Canada' },
-  { code: 'VE', flag: '🇻🇪', dial: '+58', name: 'Venezuela' },
-  { code: 'DO', flag: '🇩🇴', dial: '+1', name: 'Dominican Republic' },
-  { code: 'PR', flag: '🇵🇷', dial: '+1', name: 'Puerto Rico' },
-  { code: 'CU', flag: '🇨🇺', dial: '+53', name: 'Cuba' },
-  { code: 'CO', flag: '🇨🇴', dial: '+57', name: 'Colombia' },
-  { code: 'MX', flag: '🇲🇽', dial: '+52', name: 'Mexico' },
-  { code: 'JM', flag: '🇯🇲', dial: '+1', name: 'Jamaica' },
-  { code: 'HT', flag: '🇭🇹', dial: '+509', name: 'Haiti' },
-  { code: 'PA', flag: '🇵🇦', dial: '+507', name: 'Panama' },
-  { code: 'NI', flag: '🇳🇮', dial: '+505', name: 'Nicaragua' },
-  { code: 'HN', flag: '🇭🇳', dial: '+504', name: 'Honduras' },
-  { code: 'GT', flag: '🇬🇹', dial: '+502', name: 'Guatemala' },
-  { code: 'CR', flag: '🇨🇷', dial: '+506', name: 'Costa Rica' },
-  { code: 'EC', flag: '🇪🇨', dial: '+593', name: 'Ecuador' },
-  { code: 'PE', flag: '🇵🇪', dial: '+51', name: 'Peru' },
-  { code: 'AR', flag: '🇦🇷', dial: '+54', name: 'Argentina' },
-  { code: 'CL', flag: '🇨🇱', dial: '+56', name: 'Chile' },
-  { code: 'BR', flag: '🇧🇷', dial: '+55', name: 'Brazil' },
-  { code: 'ES', flag: '🇪🇸', dial: '+34', name: 'Spain' },
-  { code: 'IT', flag: '🇮🇹', dial: '+39', name: 'Italy' },
+  { code: 'US', dial: '+1', name: 'United States' },
+  { code: 'CA', dial: '+1', name: 'Canada' },
+  { code: 'VE', dial: '+58', name: 'Venezuela' },
+  { code: 'DO', dial: '+1', name: 'Dominican Republic' },
+  { code: 'PR', dial: '+1', name: 'Puerto Rico' },
+  { code: 'CU', dial: '+53', name: 'Cuba' },
+  { code: 'CO', dial: '+57', name: 'Colombia' },
+  { code: 'MX', dial: '+52', name: 'Mexico' },
+  { code: 'JM', dial: '+1', name: 'Jamaica' },
+  { code: 'HT', dial: '+509', name: 'Haiti' },
+  { code: 'PA', dial: '+507', name: 'Panama' },
+  { code: 'NI', dial: '+505', name: 'Nicaragua' },
+  { code: 'HN', dial: '+504', name: 'Honduras' },
+  { code: 'GT', dial: '+502', name: 'Guatemala' },
+  { code: 'CR', dial: '+506', name: 'Costa Rica' },
+  { code: 'EC', dial: '+593', name: 'Ecuador' },
+  { code: 'PE', dial: '+51', name: 'Peru' },
+  { code: 'AR', dial: '+54', name: 'Argentina' },
+  { code: 'CL', dial: '+56', name: 'Chile' },
+  { code: 'BR', dial: '+55', name: 'Brazil' },
+  { code: 'ES', dial: '+34', name: 'Spain' },
+  { code: 'IT', dial: '+39', name: 'Italy' },
 ];
 
 // ============ PROGRAMS ============
@@ -1503,7 +1514,7 @@ function ProgramForm({ formTitle, moreInfoText, formName, formEmail, formPhone, 
           <div className="flex gap-2">
             <select value={formData.phoneCode} onChange={(e) => handleChange('phoneCode', e.target.value)} className="w-[130px] sm:w-[150px] flex-shrink-0 px-2 sm:px-3 py-3 rounded-xl border border-gray-200 focus:border-brand-red focus:ring-2 focus:ring-brand-red/20 outline-none transition-all bg-white text-sm sm:text-base cursor-pointer">
               {PHONE_COUNTRIES.map((c) => (
-                <option key={c.code} value={c.code}>{c.flag} {c.dial}</option>
+                <option key={c.code} value={c.code}>{c.code} {c.dial}</option>
               ))}
             </select>
             <input type="tel" value={formData.phone} onChange={(e) => handleChange('phone', e.target.value.replace(/\D/g, ''))} onBlur={() => handleBlur('phone')} placeholder="(XXX) XXX-XXXX" maxLength={15} className={"flex-grow " + (errors.phone && touched.phone ? inputError : inputNormal)} />
@@ -1630,14 +1641,14 @@ function Programs() {
 function BaseballStats() {
   const lang = useLang();
   
-  const statsTitle = lang === 'es' ? '⚾ Números que Hablan' : '⚾ Numbers That Speak';
+  const statsTitle = lang === 'es' ? 'Números que Hablan' : 'Numbers That Speak';
   const statsSub = lang === 'es' ? 'Nuestro impacto en el desarrollo de atletas' : 'Our impact on athlete development';
   
   const stats = [
-    { emoji: '⚾', number: '200+', label: lang === 'es' ? 'Atletas Formados' : 'Athletes Trained', photo: '/academy/gallery-teamwork.jpg' },
-    { emoji: '🏆', number: '10+', label: lang === 'es' ? 'Años de Experiencia MLB' : 'Years MLB Experience', photo: '/A_Blanco.JPG' },
-    { emoji: '🎓', number: '50+', label: lang === 'es' ? 'Becas Universitarias' : 'College Scholarships', photo: '/academy/gallery-champions.jpg' },
-    { emoji: '🌴', number: 'Tampa', label: lang === 'es' ? 'Florida, USA' : 'Florida, USA', photo: '/academy/gallery-facilities.jpg' },
+    { number: '200+', label: lang === 'es' ? 'Atletas Formados' : 'Athletes Trained', photo: '/academy/gallery-teamwork.jpg' },
+    { number: '10+', label: lang === 'es' ? 'Años de Experiencia MLB' : 'Years MLB Experience', photo: '/A_Blanco.JPG' },
+    { number: '50+', label: lang === 'es' ? 'Becas Universitarias' : 'College Scholarships', photo: '/academy/gallery-champions.jpg' },
+    { number: 'Tampa', label: lang === 'es' ? 'Florida, USA' : 'Florida, USA', photo: '/academy/gallery-facilities.jpg' },
   ];
 
   return (
@@ -1673,7 +1684,6 @@ function BaseballStats() {
           {stats.map((stat, i) => (
             <AnimatedSection key={i} delay={i * 0.15}>
               <div className="group text-center p-6 sm:p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-brand-red/50 transition-all duration-500 hover:bg-white/10">
-                <div className="text-4xl sm:text-5xl mb-4">{stat.emoji}</div>
                 <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-brand-red mb-2">{stat.number}</div>
                 <div className="text-white/60 text-sm sm:text-base font-medium">{stat.label}</div>
                 <div className="mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -1727,9 +1737,7 @@ function Events() {
           {c.events.map((event, i) => (
             <AnimatedSection key={i} delay={i * 0.1}>
               <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 text-center hover-lift border border-gray-100 hover:border-brand-red/30 transition-all duration-500 h-full">
-                <div className="w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14 mx-auto rounded-full bg-brand-red/10 flex items-center justify-center text-brand-red mb-3 sm:mb-4 text-xl sm:text-2xl">
-                  {['🌸', '☀️', '⚾', '🦃', '❄️'][i]}
-                </div>
+                <div className="w-8 h-8 sm:w-10 sm:h-10 mx-auto rounded-full bg-brand-red/10 mb-3 sm:mb-4" />
                 <h4 className="font-bold text-brand-black text-xs sm:text-sm mb-0.5 sm:mb-1">{event.name}</h4>
                 <p className="text-[10px] sm:text-xs text-gray-500">{event.month}</p>
               </div>
@@ -1764,24 +1772,21 @@ function Events() {
 function BaseballTips() {
   const lang = useLang();
   
-  const tipsTitle = lang === 'es' ? '💡 Tips de Béisbol' : '💡 Baseball Tips';
+  const tipsTitle = lang === 'es' ? 'Tips de Béisbol' : 'Baseball Tips';
   const tipsSub = lang === 'es' ? 'Consejos de nuestros coaches profesionales' : 'Tips from our professional coaches';
   
   const tips = [
     {
-      emoji: '🏏',
       title: lang === 'es' ? 'Técnica de Bateo' : 'Batting Technique',
       description: lang === 'es' ? 'Mantén los ojos en la pelota y sigue el swing con todo el cuerpo.' : 'Keep your eyes on the ball and follow through with your whole body.',
       photo: '/academy/tips-batting.jpg'
     },
     {
-      emoji: '🧤',
       title: lang === 'es' ? 'Defensa Perfecta' : 'Perfect Defense',
       description: lang === 'es' ? 'Posicionamiento y anticipación son clave para una buena defensa.' : 'Positioning and anticipation are key to good defense.',
       photo: '/academy/tips-defense.jpg'
     },
     {
-      emoji: '⚾',
       title: lang === 'es' ? 'Control de Pitches' : 'Pitch Control',
       description: lang === 'es' ? 'La consistencia viene de la repetición y la mecánica correcta.' : 'Consistency comes from repetition and proper mechanics.',
       photo: '/academy/tips-pitching.jpg'
@@ -1811,8 +1816,8 @@ function BaseballTips() {
             <AnimatedSection key={i} delay={i * 0.15}>
               <div className="group bg-brand-gray-light rounded-2xl sm:rounded-3xl p-6 sm:p-8 hover:bg-brand-red/5 transition-all duration-500 hover-lift h-full">
                 <div className="flex items-center gap-3 mb-4 sm:mb-6">
-                  <span className="text-3xl sm:text-4xl text-brand-red inline-flex">
-                    {tip.emoji === '🧤' ? <BatIcon className="w-8 h-8 sm:w-9 sm:h-9" /> : tip.emoji}
+                  <span className="text-brand-red inline-flex">
+                    <BatIcon className="w-8 h-8 sm:w-9 sm:h-9" />
                   </span>
                   <h3 className="text-lg sm:text-xl font-bold text-brand-black">{tip.title}</h3>
                 </div>
@@ -1874,8 +1879,8 @@ function SocialMedia() {
   const lang = useLang();
   const instagramUsername = 'ab4.academytampa';
 
-  const socialTitle = lang === 'es' ? '📱 Síguenos en Redes' : '📱 Follow Us on Social';
-  const socialSub = lang === 'es' ? '⚾ Mantente conectado con nuestra comunidad de béisbol' : '⚾ Stay connected with our baseball community';
+  const socialTitle = lang === 'es' ? 'Síguenos en Redes' : 'Follow Us on Social';
+  const socialSub = lang === 'es' ? 'Mantente conectado con nuestra comunidad de béisbol' : 'Stay connected with our baseball community';
 
   return (
     <section className="py-16 sm:py-20 lg:py-24 bg-brand-black relative overflow-hidden">
@@ -1924,10 +1929,10 @@ function Contact() {
   };
 
   const contactInfo = [
-    { icon: <span className="text-2xl">📍</span>, title: c.contactLocation, value: c.contactLocationVal },
-    { icon: <span className="text-2xl">📞</span>, title: c.contactPhoneLabel, value: c.contactPhoneVal },
-    { icon: <span className="text-2xl">✉️</span>, title: c.contactEmailLabel, value: c.contactEmailVal, extra: [c.contactEmailFinance, c.contactEmailParents] },
-    { icon: <span className="text-2xl">🕐</span>, title: c.contactHours, value: c.contactHoursVal },
+    { icon: <PinIcon className="w-5 h-5" />, title: c.contactLocation, value: c.contactLocationVal },
+    { icon: <PhoneIcon className="w-5 h-5" />, title: c.contactPhoneLabel, value: c.contactPhoneVal },
+    { icon: <MailIcon className="w-5 h-5" />, title: c.contactEmailLabel, value: c.contactEmailVal, extra: [c.contactEmailFinance, c.contactEmailParents] },
+    { icon: <ClockIcon className="w-5 h-5" />, title: c.contactHours, value: c.contactHoursVal },
   ];
 
   return (
@@ -2038,7 +2043,7 @@ function Footer() {
             </div>
             <p className="text-white/50 text-xs sm:text-sm leading-relaxed mb-4 sm:mb-6">{c.footerDesc}</p>
             <div className="flex items-start gap-2 text-white/40 text-xs sm:text-sm mb-4 sm:mb-6">
-              <span className="text-lg mt-0.5">📍</span>
+              <PinIcon className="w-4 h-4 mt-0.5 flex-shrink-0" />
               <span>5901 W Linebaugh Ave<br />Tampa, FL 33624</span>
             </div>
             <div className="flex gap-3 sm:gap-4">
@@ -2052,7 +2057,7 @@ function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4 sm:mb-6 text-sm sm:text-base">{c.footerPrograms}</h4>
             <ul className="space-y-2 sm:space-y-3">
-              {['🏏 Hitting Instruction', '⚾ Pitching Development', '🧤 Fielding & Defense', '🏆 Showcase Teams'].map((item) => (
+              {['Hitting Instruction', 'Pitching Development', '🧤 Fielding & Defense', 'Showcase Teams'].map((item) => (
                 <li key={item}>
                   <a href="#programas" className="text-white/50 text-xs sm:text-sm hover:text-brand-red transition-colors inline-flex items-center gap-1.5">
                     {item.startsWith('🧤 ') ? (
