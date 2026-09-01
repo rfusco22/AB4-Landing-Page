@@ -1128,10 +1128,10 @@ function About() {
               >
                 <div className="grid lg:grid-cols-2 h-full">
                   {/* Photo Side */}
-                  <div className="relative h-48 sm:h-56 lg:h-full bg-gradient-to-br from-gray-100 to-gray-50 min-h-[180px]">
+                  <div className="relative aspect-[3/4] lg:aspect-auto lg:h-full bg-gradient-to-br from-gray-100 to-gray-50">
                     {allStaff[selectedCoach].photo ? (
-                      <img 
-                        src={allStaff[selectedCoach].photo} 
+                      <img
+                        src={allStaff[selectedCoach].photo}
                         alt={allStaff[selectedCoach].name}
                         className="w-full h-full object-cover object-top"
                       />
