@@ -2015,7 +2015,7 @@ function Footer() {
     <footer className="bg-brand-black pt-16 sm:pt-20 pb-6 sm:pb-8 relative">
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-brand-red to-transparent" />
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 lg:gap-12 mb-12 sm:mb-16">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 lg:gap-12 mb-12 sm:mb-16">
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="mb-4 sm:mb-6">
               <img src="/logo1.png" alt="AB4 Academy" className="h-14 sm:h-16 lg:h-20 w-auto" style={{ filter: 'brightness(0) invert(1) contrast(1.2)' }} />
@@ -2055,14 +2055,6 @@ function Footer() {
             <ul className="space-y-2 sm:space-y-3">
               {c.footerCompanyLinks.map((item, i) => (
                 <li key={item}><a href={['#sobre-mi', '#eventos', '#programas', '#contacto'][i]} className="text-white/50 text-xs sm:text-sm hover:text-brand-red transition-colors">{item}</a></li>
-              ))}
-            </ul>
-          </div>
-          <div>
-            <h4 className="text-white font-semibold mb-4 sm:mb-6 text-sm sm:text-base">{c.footerLegal}</h4>
-            <ul className="space-y-2 sm:space-y-3">
-              {c.footerLegalLinks.map((item) => (
-                <li key={item}><a href="#" className="text-white/50 text-xs sm:text-sm hover:text-brand-red transition-colors">{item}</a></li>
               ))}
             </ul>
           </div>
