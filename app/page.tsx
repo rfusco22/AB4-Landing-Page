@@ -959,10 +959,6 @@ function About() {
       closing: c.alejandroBioClosing,
     },
     {
-      name: 'Andrés Blanco',
-      role: c.teamGeneral,
-    },
-    {
       name: 'Rafael Lazo',
       role: c.teamPitching,
       photo: '/staff/rafael-lazo.jpg',
