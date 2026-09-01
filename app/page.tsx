@@ -141,6 +141,8 @@ const t = {
     ctaTitle: '⚾ Da el Primer Paso.',
     ctaSub: 'Únete a AB4 Academy y desarrolla tu máximo potencial en béisbol.',
     ctaCta: '📞 Contáctanos Hoy',
+    ctaFreeClassText: '¿Quieres conocer nuestro trabajo?',
+    ctaFreeClassCta: '🎓 Programa una Clase Gratis',
     // Contact
     contactTag: '📞 Contacto',
     contactTitle: 'Hablemos',
@@ -377,6 +379,8 @@ const t = {
     ctaTitle: '⚾ Take the First Step.',
     ctaSub: 'Join AB4 Academy and develop your full potential in baseball.',
     ctaCta: '📞 Contact Us Today',
+    ctaFreeClassText: 'Want to see our work up close?',
+    ctaFreeClassCta: '🎓 Schedule a Free Class',
     // Contact
     contactTag: '📞 Contact',
     contactTitle: 'Let\'s Talk',
@@ -508,20 +512,18 @@ function AnimatedSection({ children, className = '', delay = 0 }: { children: Re
   );
 }
 
-// ============ BASEBALL GLOVE ICON ============
-function GloveIcon({ className = 'w-5 h-5' }: { className?: string }) {
+// ============ BASEBALL BAT ICON ============
+function BatIcon({ className = 'w-5 h-5' }: { className?: string }) {
   return (
     <svg viewBox="0 0 24 24" className={className} fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path
-        d="M7 21c-2.2 0-4-1.8-4-4v-4.5C3 9.5 4.8 7 7.5 6.2V4.5a2.5 2.5 0 015 0V6h.5a2 2 0 012 2v.3a2.3 2.3 0 014 1.7v2.5a2.5 2.5 0 01-1 2l-1 .8V17c0 2.2-1.8 4-4 4H7z"
-        fill="currentColor"
-        fillOpacity="0.15"
-        stroke="currentColor"
-        strokeWidth="1.4"
-        strokeLinejoin="round"
-      />
-      <path d="M8.5 9.5v3M12 9v4M15 10v3.5" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" />
-      <circle cx="17.5" cy="15" r="2" fill="currentColor" fillOpacity="0.25" stroke="currentColor" strokeWidth="1.2" />
+      <g transform="rotate(-38 12 12)">
+        <path
+          d="M9.7,5 Q9.7,3 12,3 Q14.3,3 14.3,5 L14.3,10 L12.9,19 L12.9,21 Q12.9,22 12,22 Q11.1,22 11.1,21 L11.1,19 L9.7,10 Z"
+          fill="currentColor" fillOpacity="0.22" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round"
+        />
+      </g>
+      <circle cx="17.6" cy="6.6" r="2.6" fill="currentColor" fillOpacity="0.2" stroke="currentColor" strokeWidth="1.2" />
+      <path d="M16.3 5.2c.6.6.6 2.2 0 2.8M18.9 5.2c-.6.6-.6 2.2 0 2.8" stroke="currentColor" strokeWidth="0.8" strokeLinecap="round" />
     </svg>
   );
 }
@@ -710,7 +712,7 @@ function Hero() {
         transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
         className="absolute top-[40%] right-[5%] w-8 h-8 sm:w-12 sm:h-12 text-white opacity-10 hidden lg:block"
       >
-        <GloveIcon className="w-full h-full" />
+        <BatIcon className="w-full h-full" />
       </motion.div>
 
       {/* Decorative dots pattern */}
@@ -833,7 +835,7 @@ function Hero() {
 function BaseballGallery() {
   const lang = useLang();
   
-  const galleryTitle = lang === 'es' ? '⚾ Nuestra Pasión por el Béisbol' : '⚾ Our Passion for Baseball';
+  const galleryTitle = lang === 'es' ? 'Nuestra Pasión por el Béisbol' : 'Our Passion for Baseball';
   const gallerySub = lang === 'es' ? 'Momentos que definen nuestro programa' : 'Moments that define our program';
   
   const baseballImages = [
@@ -1390,7 +1392,7 @@ function ProgramCard({ title, subtitle, price, schedule, scheduleTime, optionsLa
               <span className="text-xs sm:text-sm text-white/80 inline-flex items-center gap-1.5">
                 {feature.startsWith('🧤 ') ? (
                   <>
-                    <GloveIcon className="w-4 h-4 text-brand-red flex-shrink-0" />
+                    <BatIcon className="w-4 h-4 text-brand-red flex-shrink-0" />
                     {feature.replace('🧤 ', '')}
                   </>
                 ) : feature}
@@ -1810,7 +1812,7 @@ function BaseballTips() {
               <div className="group bg-brand-gray-light rounded-2xl sm:rounded-3xl p-6 sm:p-8 hover:bg-brand-red/5 transition-all duration-500 hover-lift h-full">
                 <div className="flex items-center gap-3 mb-4 sm:mb-6">
                   <span className="text-3xl sm:text-4xl text-brand-red inline-flex">
-                    {tip.emoji === '🧤' ? <GloveIcon className="w-8 h-8 sm:w-9 sm:h-9" /> : tip.emoji}
+                    {tip.emoji === '🧤' ? <BatIcon className="w-8 h-8 sm:w-9 sm:h-9" /> : tip.emoji}
                   </span>
                   <h3 className="text-lg sm:text-xl font-bold text-brand-black">{tip.title}</h3>
                 </div>
@@ -1851,10 +1853,16 @@ function CtaBanner() {
         <AnimatedSection>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6">{c.ctaTitle}</h2>
           <p className="text-base sm:text-lg text-white/60 mb-8 sm:mb-10 max-w-2xl mx-auto">{c.ctaSub}</p>
-          <a href="#contacto" className="inline-flex items-center gap-3 bg-brand-red text-white px-8 sm:px-10 py-4 sm:py-5 rounded-full text-base sm:text-lg font-semibold hover:bg-brand-red-dark transition-all duration-300 hover:shadow-xl hover:shadow-brand-red/30 hover:-translate-y-1">
-            {c.ctaCta}
-            <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-          </a>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
+            <a href="#contacto" className="inline-flex items-center gap-3 bg-brand-red text-white px-8 sm:px-10 py-4 sm:py-5 rounded-full text-base sm:text-lg font-semibold hover:bg-brand-red-dark transition-all duration-300 hover:shadow-xl hover:shadow-brand-red/30 hover:-translate-y-1">
+              {c.ctaCta}
+              <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+            </a>
+            <a href="#contacto" className="inline-flex items-center gap-3 border border-white/20 text-white px-8 sm:px-10 py-4 sm:py-5 rounded-full text-base sm:text-lg font-semibold hover:bg-white/5 transition-all duration-300">
+              {c.ctaFreeClassCta}
+            </a>
+          </div>
+          <p className="text-white/40 text-sm sm:text-base mt-5 sm:mt-6">{c.ctaFreeClassText}</p>
         </AnimatedSection>
       </div>
     </section>
@@ -2070,7 +2078,7 @@ function Footer() {
                   <a href="#programas" className="text-white/50 text-xs sm:text-sm hover:text-brand-red transition-colors inline-flex items-center gap-1.5">
                     {item.startsWith('🧤 ') ? (
                       <>
-                        <GloveIcon className="w-3.5 h-3.5 flex-shrink-0" />
+                        <BatIcon className="w-3.5 h-3.5 flex-shrink-0" />
                         {item.replace('🧤 ', '')}
                       </>
                     ) : item}
