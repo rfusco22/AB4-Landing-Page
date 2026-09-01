@@ -1562,10 +1562,22 @@ function BaseballStats() {
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-brand-red to-transparent" />
       
       {/* Baseball field background */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] border-2 border-white rounded-full" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[200px] h-[200px] border-2 border-white rounded-full" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-4 h-4 bg-white rounded-full" />
+      <div className="absolute inset-0 opacity-[0.07] flex items-center justify-center overflow-hidden pointer-events-none">
+        <svg viewBox="0 0 730 650" className="w-[560px] h-[560px] sm:w-[720px] sm:h-[720px]" fill="none" stroke="white" strokeWidth="2">
+          {/* Outfield fence */}
+          <path d="M 2 237 A 513 513 0 0 1 728 237" />
+          {/* Infield dirt arc */}
+          <path d="M 134 369 A 327 327 0 0 1 596 369" />
+          {/* Foul lines */}
+          <line x1="365" y1="600" x2="728" y2="237" />
+          <line x1="365" y1="600" x2="2" y2="237" />
+          {/* Base paths */}
+          <path d="M 365 600 L 475 490 L 365 380 L 255 490 Z" />
+          {/* Pitcher's mound */}
+          <circle cx="365" cy="479" r="9" />
+          {/* Home plate */}
+          <circle cx="365" cy="600" r="6" fill="white" stroke="none" />
+        </svg>
       </div>
 
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 relative z-10">
