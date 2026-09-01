@@ -666,14 +666,20 @@ function Hero() {
 
   return (
     <section id="inicio" className="relative min-h-screen flex items-center overflow-hidden bg-brand-black">
-      {/* Background baseball image */}
+      {/* Background baseball video */}
       <div className="absolute inset-0">
-        <img
-          src="/academy/hero-bg.jpg"
-          alt="AB4 Academy players training at full speed"
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          aria-hidden="true"
+          poster="/academy/hero-bg.jpg"
           className="w-full h-full object-cover"
           style={{ objectPosition: '50% 35%' }}
-        />
+        >
+          <source src="/academy/hero-video.mp4" type="video/mp4" />
+        </video>
         <div className="absolute inset-0 bg-gradient-to-r from-brand-black via-brand-black/75 to-brand-black/25" />
         <div className="absolute inset-0 bg-gradient-to-t from-brand-black via-transparent to-transparent" />
       </div>
