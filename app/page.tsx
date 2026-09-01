@@ -242,6 +242,9 @@ const t = {
       'Completamente bilingüe en inglés y español, actualmente forma parte de AB4 Academy, donde brinda apoyo académico a nuestros student-athletes y contribuye a que puedan mantener un equilibrio responsable entre su formación educativa y su desarrollo deportivo.',
       'Su experiencia y vocación aportan una visión integral al programa, promoviendo en cada estudiante disciplina, responsabilidad, autonomía y compromiso con su futuro académico y personal.',
     ],
+    // Ronald Bio
+    teamRonald: '⚾ Coach',
+    ronaldBioRole: 'Coach | Ex-Jugador de MLB',
     // Footer
     footerDesc: '⚾ Programa de desarrollo de béisbol juvenil de élite en Tampa, Florida. Desarrollando atletas y líderes de carácter.',
     footerPrograms: '⚾ Programas',
@@ -475,6 +478,9 @@ const t = {
       'Fully bilingual in English and Spanish, she is currently part of AB4 Academy, where she provides academic support to our student-athletes and helps them maintain a responsible balance between their educational training and athletic development.',
       'Her experience and vocation bring a comprehensive vision to the program, promoting in each student discipline, responsibility, autonomy, and commitment to their academic and personal future.',
     ],
+    // Ronald Bio
+    teamRonald: '⚾ Coach',
+    ronaldBioRole: 'Coach | Former MLB Player',
     // Footer
     footerDesc: '⚾ Elite youth baseball development program in Tampa, Florida. Developing elite athletes and leaders of character.',
     footerPrograms: '⚾ Programs',
@@ -935,7 +941,7 @@ function About() {
       name: 'Andrés Eloy Blanco',
       role: c.teamFounder,
       desc: c.teamFounderDesc,
-      photo: '/A_Blanco.JPG',
+      photo: '/staff/andres-eloy-blanco.jpg',
       bioRole: c.founderBioRole,
       bioBorn: c.founderBioBorn,
       bio: c.founderBioParagraphs,
@@ -946,7 +952,7 @@ function About() {
       name: 'Alejandro Fernández',
       role: c.teamOps,
       desc: c.teamOpsDesc,
-      photo: '/AleFernandez.webp',
+      photo: '/staff/alejandro-fernandez.jpg',
       bioRole: c.alejandroBioRole,
       bio: c.alejandroBioParagraphs,
       highlights: c.alejandroBioHighlights,
@@ -955,35 +961,40 @@ function About() {
     {
       name: 'Andrés Blanco',
       role: c.teamGeneral,
-      photo: '/staff-andres-b.jpg',
     },
     {
       name: 'Rafael Lazo',
       role: c.teamPitching,
-      photo: '/staff-rafael.jpg',
+      photo: '/staff/rafael-lazo.jpg',
       bioRole: c.rafaelBioRole,
       bio: c.rafaelBioParagraphs,
     },
     {
       name: 'Guarner Dipre',
       role: c.teamInfield,
-      photo: '/staff-warner.jpg',
+      photo: '/staff/guarner-dipre.jpg',
       bioRole: c.guarnerBioRole,
       bio: c.guarnerBioParagraphs,
     },
     {
       name: 'Juan José Muñoz',
       role: c.teamUtility,
-      photo: '/staff-juan.jpg',
+      photo: '/staff/juan-munoz.jpg',
       bioRole: c.juanBioRole,
       bio: c.juanBioParagraphs,
     },
     {
       name: 'Prof. Lilian Ibáñez Greico',
       role: c.teamEducation,
-      photo: '/staff-lilian.jpg',
+      photo: '/staff/lilian-ibanez-greico.jpg',
       bioRole: c.lilianBioRole,
       bio: c.lilianBioParagraphs,
+    },
+    {
+      name: 'Ronald Torreyes',
+      role: c.teamRonald,
+      photo: '/staff/ronald-torreyes.jpg',
+      bioRole: c.ronaldBioRole,
     },
   ];
 
