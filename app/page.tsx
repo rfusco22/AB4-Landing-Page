@@ -29,7 +29,7 @@ const t = {
     heroCta2: '📞 Contáctanos',
     stat1Num: '200+', stat1Label: '⚾ Atletas Activos',
     stat2Num: 'Tampa', stat2Label: '🌴 Florida',
-    stat3Num: 'Elite', stat3Label: '🏆 Training',
+    stat3Num: 'Elite', stat3Label: '🏆 Entrenamiento',
     // About
     aboutTag: '⚾ Quiénes Somos',
     aboutTitle: 'Más que béisbol.',
@@ -52,75 +52,77 @@ const t = {
     ],
     // Programs
     progTag: '⚾ Programas',
+    progSectionTitle: 'Nuestros Programas',
+    progSectionSub: 'Rutas de entrenamiento diseñadas para cada nivel del estudiante-atleta.',
     progTitle: 'AB4 Homeschool Baseball Program',
-    progSub: 'Middle & High School Student-Athletes',
-    progPrice: 'Starting at $880/month',
-    progScheduleLabel: 'Schedule',
-    progSchedule: 'Monday – Friday',
+    progSub: 'Estudiantes-Atletas de Middle y High School',
+    progPrice: 'Desde $880/mes',
+    progScheduleLabel: 'Horario',
+    progSchedule: 'Lunes – Viernes',
     progScheduleTime: '8:00 AM – 2:00 PM',
-    progWhatsIncluded: "⚾ WHAT'S INCLUDED",
+    progWhatsIncluded: '⚾ QUÉ INCLUYE',
     progFeatures: [
-      '⚾ Professional Baseball Training',
-      '🏏 Batting Development',
-      '🧤 Fielding Development',
-      '🎯 Position-Specific Training',
-      '💪 Strength & Conditioning',
-      '🏃 Athletic Performance Development',
-      '📊 Athlete Evaluations & Progress Tracking',
-      '📚 Structured Academic Time',
-      '📖 Academic Support Available',
-      '👨‍🏫 Professional Coaching Staff – MLB Experience',
-      '🔄 Flexible Program Options',
-      '✅ Step Up Provider',
+      '⚾ Entrenamiento Profesional de Béisbol',
+      '🏏 Desarrollo de Bateo',
+      '🧤 Desarrollo de Fildeo',
+      '🎯 Entrenamiento Específico por Posición',
+      '💪 Fuerza y Acondicionamiento',
+      '🏃 Desarrollo de Rendimiento Atlético',
+      '📊 Evaluaciones de Atletas y Seguimiento de Progreso',
+      '📚 Tiempo Académico Estructurado',
+      '📖 Apoyo Académico Disponible',
+      '👨‍🏫 Staff de Coaches Profesionales – Experiencia en MLB',
+      '🔄 Opciones Flexibles de Programa',
+      '✅ Proveedor Step Up',
     ],
-    progMoreInfo: 'MORE INFORMATION',
-    progMoreInfoText: 'Interested in learning more about the program?',
-    progMoreInfoSub: 'Complete our Request Information Form or contact us directly for program details, availability, tuition options, and enrollment information.',
-    progFormTitle: 'Request Information',
-    progFormName: 'Parent / Guardian Name',
-    progFormEmail: 'Email',
-    progFormPhone: 'Phone',
-    progFormStudent: "Student's Name",
-    progFormGrade: 'Grade Level',
-    progFormInterest: 'Program Interest',
-    progFormInterestOptions: ['Full-Time', 'Part-Time', 'Flex Program'],
-    progFormMsg: 'Questions or Comments (Optional)',
-    progFormSend: 'Request Information',
-    progFormSent: 'Information Requested!',
+    progMoreInfo: 'MÁS INFORMACIÓN',
+    progMoreInfoText: '¿Interesado en conocer más sobre el programa?',
+    progMoreInfoSub: 'Completa nuestro Formulario de Solicitud de Información o contáctanos directamente para conocer detalles del programa, disponibilidad, opciones de matrícula e información de inscripción.',
+    progFormTitle: 'Solicitar Información',
+    progFormName: 'Nombre del Padre / Madre o Tutor',
+    progFormEmail: 'Correo Electrónico',
+    progFormPhone: 'Teléfono',
+    progFormStudent: 'Nombre del Estudiante',
+    progFormGrade: 'Nivel de Grado',
+    progFormInterest: 'Interés en el Programa',
+    progFormInterestOptions: ['Tiempo Completo', 'Medio Tiempo', 'Programa Flexible'],
+    progFormMsg: 'Preguntas o Comentarios (Opcional)',
+    progFormSend: 'Solicitar Información',
+    progFormSent: '¡Información Solicitada!',
     progCta: 'Solicitar Información del Programa',
     progDisclaimer: 'AB4 Academy es un programa de desarrollo atlético y no es una escuela. Los estudiantes-atletas mantienen su inscripción con el proveedor educativo de su elección.',
     // HS Performance Program
     hsProgTag: '⚾ Programas',
     hsProgTitle: 'High School Performance Program',
-    hsProgSub: 'Juniors & Seniors',
-    hsProgPrice: 'Starting at $400/month',
-    hsProgScheduleLabel: 'Schedule',
-    hsProgSchedule: 'Tuesday – Thursday',
+    hsProgSub: 'Juniors y Seniors de High School',
+    hsProgPrice: 'Desde $400/mes',
+    hsProgScheduleLabel: 'Horario',
+    hsProgSchedule: 'Martes – Jueves',
     hsProgScheduleTime: '1:00 PM – 3:00 PM',
-    hsProgOptionsLabel: 'Training Options',
-    hsProgOptions: ['2–3 Days Per Week', '2 Hours of Training Per Session'],
-    hsProgWhatsIncluded: "⚾ WHAT'S INCLUDED",
+    hsProgOptionsLabel: 'Opciones de Entrenamiento',
+    hsProgOptions: ['2–3 Días por Semana', '2 Horas de Entrenamiento por Sesión'],
+    hsProgWhatsIncluded: '⚾ QUÉ INCLUYE',
     hsProgFeatures: [
-      '🏏 Batting Development',
-      '🧤 Fielding Development',
-      '🔄 Skill Development & Repetition',
-      '🎯 Position-Specific Defensive Work',
-      '💪 Athletic Performance Development',
-      '👨‍🏫 Professional Coaching Staff – MLB Experience',
-      '🏋️ Performance-Focused Training Environment',
+      '🏏 Desarrollo de Bateo',
+      '🧤 Desarrollo de Fildeo',
+      '🔄 Desarrollo de Habilidades y Repetición',
+      '🎯 Trabajo Defensivo Específico por Posición',
+      '💪 Desarrollo de Rendimiento Atlético',
+      '👨‍🏫 Staff de Coaches Profesionales – Experiencia en MLB',
+      '🏋️ Entorno de Entrenamiento Enfocado en Rendimiento',
     ],
-    hsProgMoreInfo: 'MORE INFORMATION',
-    hsProgMoreInfoText: 'Interested in learning more about the program?',
-    hsProgMoreInfoSub: 'Complete our Request Information Form or contact us directly for program details, availability, training options, and enrollment information.',
-    hsProgFormTitle: 'Request Information',
-    hsProgFormName: 'Parent / Guardian Name',
-    hsProgFormEmail: 'Email',
-    hsProgFormPhone: 'Phone',
-    hsProgFormStudent: "Student's Name",
-    hsProgFormGrade: 'Grade Level',
-    hsProgFormMsg: 'Questions or Comments (Optional)',
-    hsProgFormSend: 'Request Information',
-    hsProgFormSent: 'Information Requested!',
+    hsProgMoreInfo: 'MÁS INFORMACIÓN',
+    hsProgMoreInfoText: '¿Interesado en conocer más sobre el programa?',
+    hsProgMoreInfoSub: 'Completa nuestro Formulario de Solicitud de Información o contáctanos directamente para conocer detalles del programa, disponibilidad, opciones de entrenamiento e información de inscripción.',
+    hsProgFormTitle: 'Solicitar Información',
+    hsProgFormName: 'Nombre del Padre / Madre o Tutor',
+    hsProgFormEmail: 'Correo Electrónico',
+    hsProgFormPhone: 'Teléfono',
+    hsProgFormStudent: 'Nombre del Estudiante',
+    hsProgFormGrade: 'Nivel de Grado',
+    hsProgFormMsg: 'Preguntas o Comentarios (Opcional)',
+    hsProgFormSend: 'Solicitar Información',
+    hsProgFormSent: '¡Información Solicitada!',
     // Events
     eventTag: '📅 Eventos',
     eventTitle: 'Oportunidades de béisbol durante todo el año.',
@@ -143,7 +145,7 @@ const t = {
     contactTag: '📞 Contacto',
     contactTitle: 'Hablemos',
     contactName: 'Nombre Completo',
-    contactEmail: 'Email',
+    contactEmail: 'Correo Electrónico',
     contactPhone: 'Teléfono',
     contactInterest: '¿Qué te interesa?',
     interestOptions: ['📋 Evaluación', 'Full-Time', 'Part-Time', 'High School Performance', '🏕️ Campamento', 'Otro'],
@@ -154,7 +156,7 @@ const t = {
     contactLocationVal: '5901 W Linebaugh Ave, Tampa, FL 33624',
     contactPhoneLabel: '📞 Teléfono',
     contactPhoneVal: '+1 (813) 555-AB4',
-    contactEmailLabel: '✉️ Email',
+    contactEmailLabel: '✉️ Correo Electrónico',
     contactEmailVal: 'admin@ab4academytampa.com',
     contactEmailFinance: 'finance@ab4academytampa.com',
     contactEmailParents: 'parents@ab4academytampa.com',
@@ -170,14 +172,14 @@ const t = {
     teamOpsDesc: 'Ex-Jugador de Béisbol Profesional',
     teamGeneral: '🎯 Coordinador General',
     teamCatching: '🧤 Instructor de Catching',
-    teamPitching: '⚾ Pitching Coach',
-    teamInfield: '🏟️ Infield Coach',
-    teamUtility: '🔄 Utility Coach',
+    teamPitching: '⚾ Coach de Pitcheo',
+    teamInfield: '🏟️ Coach de Infield',
+    teamUtility: '🔄 Coach Multiposición',
     teamEducation: '📚 Tutoría Educativa',
     // Founder Bio
     founderBioTag: 'Trayectoria Profesional',
     founderBioTitle: 'Andrés Eloy Blanco',
-    founderBioRole: 'Founder & Director | Former MLB Player',
+    founderBioRole: 'Fundador y Director | Ex-Jugador de MLB',
     founderBioBorn: 'Nacido: 11 de abril de 1984 | Venezuela',
     founderBioParagraphs: [
       'Nativo de Venezuela, Andrés Eloy Blanco construyó una destacada trayectoria en el béisbol profesional, disputando 10 temporadas en Major League Baseball (MLB) con organizaciones como Kansas City Royals, Chicago Cubs, Texas Rangers y Philadelphia Phillies.',
@@ -186,11 +188,11 @@ const t = {
       'Hoy, como Founder & Director de AB4 Academy en Estados Unidos, continúa compartiendo la experiencia adquirida a lo largo de su carrera, con una visión que trasciende el terreno de juego. Su enfoque está orientado a formar atletas con disciplina, carácter, responsabilidad, respeto y compromiso, entendiendo que el verdadero desarrollo de un jugador también implica prepararlo para asumir con madurez las oportunidades, los retos y las responsabilidades que encontrará dentro y fuera del béisbol.',
     ],
     founderBioTeams: 'Kansas City Royals · Chicago Cubs · Texas Rangers · Philadelphia Phillies',
-    founderBioClosing: 'Developing Athletes. Building Character. Pursuing Excellence.',
+    founderBioClosing: 'Formando Atletas. Construyendo Carácter. Persiguiendo la Excelencia.',
     // Alejandro Bio
     alejandroBioTag: 'Trayectoria Profesional',
     alejandroBioTitle: 'Alejandro Fernández',
-    alejandroBioRole: 'Owner & Coach | Professional Baseball Experience',
+    alejandroBioRole: 'Owner y Coach | Experiencia en Béisbol Profesional',
     alejandroBioParagraphs: [
       'Nativo de Venezuela, Alejandro Fernández cuenta con una sólida trayectoria dentro del béisbol profesional, formando parte de la organización de los New York Yankees, donde se desempeñó principalmente como catcher y first baseman.',
       'Tras su etapa como jugador, ha enfocado su experiencia en la formación y desarrollo de jóvenes atletas, especializándose en catching, hitting y player development.',
@@ -202,7 +204,7 @@ const t = {
       { icon: '🏆', label: 'Triple-A Experience' },
       { icon: '🇻🇪', label: 'Tigres de Aragua' },
     ],
-    alejandroBioClosing: 'Professional Experience. Player Development. Leadership. Discipline.',
+    alejandroBioClosing: 'Experiencia Profesional. Desarrollo de Jugadores. Liderazgo. Disciplina.',
     // Juan Bio
     juanBioTag: 'Trayectoria Profesional',
     juanBioTitle: 'Juan Muñoz',
@@ -215,7 +217,7 @@ const t = {
     // Rafael Bio
     rafaelBioTag: 'Trayectoria Profesional',
     rafaelBioTitle: 'Rafael Lazo',
-    rafaelBioRole: 'Pitching Coach | Professional Baseball Experience',
+    rafaelBioRole: 'Pitching Coach | Experiencia en Béisbol Profesional',
     rafaelBioParagraphs: [
       'Rafael Lazo es exlanzador profesional venezolano con experiencia dentro de la organización de los New York Mets y una amplia trayectoria como Pitching Coach en el sistema de desarrollo de los Toronto Blue Jays.',
       'Durante varios años trabajó con diferentes afiliados de la organización de Toronto, incluyendo la Dominican Summer League, Gulf Coast League y Bluefield Blue Jays, participando directamente en la formación y desarrollo de pitchers profesionales.',
@@ -224,7 +226,7 @@ const t = {
     // Guarner Bio
     guarnerBioTag: 'Trayectoria Profesional',
     guarnerBioTitle: 'Guarner Dipre',
-    guarnerBioRole: 'Coach | Professional Baseball Experience',
+    guarnerBioRole: 'Coach | Experiencia en Béisbol Profesional',
     guarnerBioParagraphs: [
       'Guarner Dipre es exjugador profesional de béisbol con experiencia dentro de la organización de los Philadelphia Phillies, donde se desarrolló principalmente como shortstop e infielder, jugando también segunda y tercera base.',
       'Originario de República Dominicana, desarrolló su carrera profesional entre 2018 y 2021 dentro del sistema de ligas menores de los Phillies. Actualmente continúa dedicado al desarrollo de jóvenes atletas y se desempeña como Head Coach de Diamond Elite 12U National en travel baseball.',
@@ -233,7 +235,7 @@ const t = {
     // Lilian Bio
     lilianBioTag: 'Trayectoria Profesional',
     lilianBioTitle: 'Prof. Lilian Ibáñez Greico',
-    lilianBioRole: 'Educator | Academic & Athletic Eligibility Support',
+    lilianBioRole: 'Educadora | Apoyo Académico y Elegibilidad Deportiva',
     lilianBioParagraphs: [
       'La Prof. Lilian Ibáñez Greico cuenta con más de 30 años de trayectoria en el área de la educación. Es educadora licenciada DOE K–12, profesora universitaria y especialista en orientación académica para estudiantes-atletas.',
       'A lo largo de su carrera ha trabajado en homeschool support, planificación académica, seguimiento estudiantil y elegibilidad académica NCAA, acompañando a estudiantes y familias en procesos educativos que requieren organización, orientación y cumplimiento de requisitos académicos.',
@@ -283,6 +285,8 @@ const t = {
     ],
     // Programs
     progTag: '⚾ Programs',
+    progSectionTitle: 'Our Programs',
+    progSectionSub: 'Training pathways designed for every level of the student-athlete.',
     progTitle: 'AB4 Homeschool Baseball Program',
     progSub: 'Middle & High School Student-Athletes',
     progPrice: 'Starting at $880/month',
@@ -498,6 +502,24 @@ function AnimatedSection({ children, className = '', delay = 0 }: { children: Re
   );
 }
 
+// ============ BASEBALL GLOVE ICON ============
+function GloveIcon({ className = 'w-5 h-5' }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" className={className} fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M7 21c-2.2 0-4-1.8-4-4v-4.5C3 9.5 4.8 7 7.5 6.2V4.5a2.5 2.5 0 015 0V6h.5a2 2 0 012 2v.3a2.3 2.3 0 014 1.7v2.5a2.5 2.5 0 01-1 2l-1 .8V17c0 2.2-1.8 4-4 4H7z"
+        fill="currentColor"
+        fillOpacity="0.15"
+        stroke="currentColor"
+        strokeWidth="1.4"
+        strokeLinejoin="round"
+      />
+      <path d="M8.5 9.5v3M12 9v4M15 10v3.5" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" />
+      <circle cx="17.5" cy="15" r="2" fill="currentColor" fillOpacity="0.25" stroke="currentColor" strokeWidth="1.2" />
+    </svg>
+  );
+}
+
 // ============ NAVBAR ============
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -672,9 +694,9 @@ function Hero() {
       <motion.div 
         animate={{ y: [-15, 15, -15], scale: [1, 1.1, 1] }}
         transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute top-[40%] right-[5%] text-2xl sm:text-4xl opacity-10 hidden lg:block"
+        className="absolute top-[40%] right-[5%] w-8 h-8 sm:w-12 sm:h-12 text-white opacity-10 hidden lg:block"
       >
-        🧤
+        <GloveIcon className="w-full h-full" />
       </motion.div>
 
       {/* Decorative dots pattern */}
@@ -1321,7 +1343,14 @@ function ProgramCard({ title, subtitle, price, schedule, scheduleTime, optionsLa
               <svg className="w-4 h-4 sm:w-5 sm:h-5 text-brand-red mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
               </svg>
-              <span className="text-xs sm:text-sm text-white/80">{feature}</span>
+              <span className="text-xs sm:text-sm text-white/80 inline-flex items-center gap-1.5">
+                {feature.startsWith('🧤 ') ? (
+                  <>
+                    <GloveIcon className="w-4 h-4 text-brand-red flex-shrink-0" />
+                    {feature.replace('🧤 ', '')}
+                  </>
+                ) : feature}
+              </span>
             </div>
           ))}
         </div>
@@ -1444,13 +1473,13 @@ function ProgramForm({ formTitle, moreInfoText, formName, formEmail, formPhone, 
           <label className="block text-xs sm:text-sm font-semibold text-brand-black mb-1.5">{formGrade} *</label>
           <select value={formData.grade} onChange={(e) => handleChange('grade', e.target.value)} onBlur={() => handleBlur('grade')} className={(errors.grade && touched.grade ? inputError : inputNormal) + " appearance-none"}>
             <option value="">{gradeLabel}</option>
-            <option value="6">6th Grade</option>
-            <option value="7">7th Grade</option>
-            <option value="8">8th Grade</option>
-            <option value="9">9th Grade</option>
-            <option value="10">10th Grade</option>
-            <option value="11">11th Grade</option>
-            <option value="12">12th Grade</option>
+            <option value="6">{lang === 'es' ? '6to Grado' : '6th Grade'}</option>
+            <option value="7">{lang === 'es' ? '7mo Grado' : '7th Grade'}</option>
+            <option value="8">{lang === 'es' ? '8vo Grado' : '8th Grade'}</option>
+            <option value="9">{lang === 'es' ? '9no Grado' : '9th Grade'}</option>
+            <option value="10">{lang === 'es' ? '10mo Grado' : '10th Grade'}</option>
+            <option value="11">{lang === 'es' ? '11vo Grado' : '11th Grade'}</option>
+            <option value="12">{lang === 'es' ? '12vo Grado' : '12th Grade'}</option>
           </select>
           {errors.grade && touched.grade && <p className="text-red-500 text-xs mt-1">{errors.grade}</p>}
         </div>
@@ -1479,8 +1508,8 @@ function Programs() {
             <span className="text-xs sm:text-sm font-semibold tracking-widest uppercase">{c.progTag}</span>
             <div className="w-8 sm:w-12 h-0.5 bg-brand-red" />
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-brand-black mb-2 sm:mb-4">Our Programs</h2>
-          <p className="text-base sm:text-lg text-gray-600">Training pathways designed for every level of the student-athlete.</p>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-brand-black mb-2 sm:mb-4">{c.progSectionTitle}</h2>
+          <p className="text-base sm:text-lg text-gray-600">{c.progSectionSub}</p>
         </AnimatedSection>
 
         {/* Program 1: Homeschool */}
@@ -1724,7 +1753,9 @@ function BaseballTips() {
             <AnimatedSection key={i} delay={i * 0.15}>
               <div className="group bg-brand-gray-light rounded-2xl sm:rounded-3xl p-6 sm:p-8 hover:bg-brand-red/5 transition-all duration-500 hover-lift h-full">
                 <div className="flex items-center gap-3 mb-4 sm:mb-6">
-                  <span className="text-3xl sm:text-4xl">{tip.emoji}</span>
+                  <span className="text-3xl sm:text-4xl text-brand-red inline-flex">
+                    {tip.emoji === '🧤' ? <GloveIcon className="w-8 h-8 sm:w-9 sm:h-9" /> : tip.emoji}
+                  </span>
                   <h3 className="text-lg sm:text-xl font-bold text-brand-black">{tip.title}</h3>
                 </div>
                 <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6">{tip.description}</p>
@@ -1755,11 +1786,12 @@ function BaseballTips() {
             >
               🏏
             </motion.span>
-            <motion.span 
+            <motion.span
               animate={{ y: [-10, 10, -10] }}
               transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+              className="text-brand-red inline-flex"
             >
-              🧤
+              <GloveIcon className="w-9 h-9 sm:w-11 sm:h-11" />
             </motion.span>
             <motion.span 
               animate={{ y: [10, -10, 10] }}
@@ -2014,7 +2046,16 @@ function Footer() {
             <h4 className="text-white font-semibold mb-4 sm:mb-6 text-sm sm:text-base">{c.footerPrograms}</h4>
             <ul className="space-y-2 sm:space-y-3">
               {['🏏 Hitting Instruction', '⚾ Pitching Development', '🧤 Fielding & Defense', '🏆 Showcase Teams'].map((item) => (
-                <li key={item}><a href="#programas" className="text-white/50 text-xs sm:text-sm hover:text-brand-red transition-colors">{item}</a></li>
+                <li key={item}>
+                  <a href="#programas" className="text-white/50 text-xs sm:text-sm hover:text-brand-red transition-colors inline-flex items-center gap-1.5">
+                    {item.startsWith('🧤 ') ? (
+                      <>
+                        <GloveIcon className="w-3.5 h-3.5 flex-shrink-0" />
+                        {item.replace('🧤 ', '')}
+                      </>
+                    ) : item}
+                  </a>
+                </li>
               ))}
             </ul>
           </div>
@@ -2045,7 +2086,7 @@ function Footer() {
 
 // ============ MAIN PAGE ============
 export default function Home() {
-  const [lang, setLang] = useState<Lang>('en');
+  const [lang, setLang] = useState<Lang>('es');
 
   useEffect(() => {
     const saved = localStorage.getItem('ab4-lang') as Lang | null;
