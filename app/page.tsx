@@ -902,6 +902,24 @@ function BaseballGallery() {
       alt: 'AB4 Academy speed and agility drills',
       caption: lang === 'es' ? 'Velocidad y Agilidad' : 'Speed & Agility'
     },
+    {
+      video: true,
+      src: '/academy/gallery-video-training.mp4',
+      alt: 'AB4 Academy training video',
+      caption: lang === 'es' ? 'Entrenamiento en Movimiento' : 'Training in Motion'
+    },
+    {
+      video: true,
+      src: '/academy/gallery-video-speed.mp4',
+      alt: 'AB4 Academy sprint drill video',
+      caption: lang === 'es' ? 'Explosividad y Velocidad' : 'Explosive Speed'
+    },
+    {
+      video: true,
+      src: '/academy/gallery-video-warmup.mp4',
+      alt: 'AB4 Academy team warm-up video',
+      caption: lang === 'es' ? 'Calentamiento en Equipo' : 'Team Warm-Up'
+    },
   ];
 
   return (
@@ -932,19 +950,41 @@ function BaseballGallery() {
           {baseballImages.map((img, i) => (
             <AnimatedSection key={i} delay={i * 0.1}>
               <div className="group relative overflow-hidden rounded-xl sm:rounded-2xl aspect-square">
-                <img
-                  src={img.src}
-                  alt={img.alt}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  loading="lazy"
-                />
+                {img.video ? (
+                  <video
+                    src={img.src}
+                    aria-label={img.alt}
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                ) : (
+                  <img
+                    src={img.src}
+                    alt={img.alt}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    loading="lazy"
+                  />
+                )}
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4 sm:p-6">
                   <span className="text-white font-semibold text-sm sm:text-base">{img.caption}</span>
                 </div>
-                {/* Baseball corner accent */}
+                {/* Corner accent */}
                 <div className="absolute top-3 right-3 w-8 h-8 bg-brand-red/80 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <span className="text-white text-xs">⚾</span>
+                  {img.video ? (
+                    <svg className="w-3.5 h-3.5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+                  ) : (
+                    <span className="text-white text-xs">⚾</span>
+                  )}
                 </div>
+                {img.video && (
+                  <div className="absolute top-3 left-3 flex items-center gap-1 bg-black/60 backdrop-blur-sm rounded-full px-2 py-1">
+                    <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+                    <span className="text-white text-[10px] font-semibold uppercase tracking-wide">{lang === 'es' ? 'Video' : 'Video'}</span>
+                  </div>
+                )}
               </div>
             </AnimatedSection>
           ))}
