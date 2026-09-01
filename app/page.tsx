@@ -728,7 +728,7 @@ function Hero() {
       <div className="absolute inset-0 noise-overlay" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-20 lg:py-0 w-full">
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-8 items-center min-h-screen">
+        <div className="flex items-center min-h-screen">
           {/* Left content */}
           <motion.div
             initial={{ opacity: 0, x: -60 }}
@@ -790,52 +790,6 @@ function Hero() {
                 <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-white">{c.stat3Num}</div>
                 <div className="text-xs sm:text-sm text-white/40 mt-1 font-medium">{c.stat3Label}</div>
               </div>
-            </div>
-          </motion.div>
-
-          {/* Right side - Logo Card */}
-          <motion.div
-            initial={{ opacity: 0, x: 60, scale: 0.95 }}
-            animate={{ opacity: 1, x: 0, scale: 1 }}
-            transition={{ duration: 0.9, delay: 0.4, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="relative hidden lg:flex items-center justify-center"
-          >
-            {/* Background card with skew */}
-            <div className="absolute w-[420px] h-[480px] bg-white/5 rounded-[2rem] transform rotate-3" />
-            <div className="absolute w-[420px] h-[480px] bg-brand-red/10 rounded-[2rem] transform -rotate-2 translate-x-4 translate-y-4" />
-
-            {/* Main card */}
-            <div className="relative w-[400px] h-[460px] rounded-[2rem] flex items-center justify-center overflow-hidden shadow-2xl shadow-brand-red/20">
-              {/* Real AB4 team photo */}
-              <img
-                src="/academy/hero-card.jpg"
-                alt="AB4 Academy team"
-                className="absolute inset-0 w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-br from-brand-red/90 to-brand-red-dark/85" />
-              {/* Diagonal stripe */}
-              <div className="absolute top-0 right-0 w-full h-full">
-                <div className="absolute top-0 right-0 w-[60%] h-full bg-white/5 transform skew-x-[-15deg] translate-x-[30%]" />
-              </div>
-
-              {/* Content */}
-              <div className="relative text-center text-white z-10">
-                <div className="text-[8rem] lg:text-[9rem] font-black leading-none tracking-tighter">
-                  AB<span className="text-white/70">4</span>
-                </div>
-                <div className="text-xl lg:text-2xl font-light tracking-[0.4em] uppercase -mt-2">
-                  Academy
-                </div>
-                <div className="mt-8 flex justify-center gap-3">
-                  <div className="w-14 h-1 bg-white/30 rounded-full" />
-                  <div className="w-14 h-1 bg-white rounded-full" />
-                  <div className="w-14 h-1 bg-white/30 rounded-full" />
-                </div>
-              </div>
-
-              {/* Corner accents */}
-              <div className="absolute top-6 left-6 w-8 h-8 border-t-2 border-l-2 border-white/20 rounded-tl-lg" />
-              <div className="absolute bottom-6 right-6 w-8 h-8 border-b-2 border-r-2 border-white/20 rounded-br-lg" />
             </div>
           </motion.div>
         </div>
