@@ -670,9 +670,9 @@ function Hero() {
       <div className="absolute inset-0">
         <img
           src="/academy/hero-bg.jpg"
-          alt="AB4 Academy team celebrating a championship"
+          alt="AB4 Academy players training at full speed"
           className="w-full h-full object-cover"
-          style={{ objectPosition: '50% 22%' }}
+          style={{ objectPosition: '50% 35%' }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-brand-black via-brand-black/75 to-brand-black/25" />
         <div className="absolute inset-0 bg-gradient-to-t from-brand-black via-transparent to-transparent" />
