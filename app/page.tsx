@@ -670,16 +670,18 @@ function Hero() {
       <div className="absolute inset-0">
         <img
           src="/academy/hero-bg.jpg"
-          alt="AB4 Academy players in the dugout"
-          className="w-full h-full object-cover opacity-40"
+          alt="AB4 Academy team celebrating a championship"
+          className="w-full h-full object-cover"
+          style={{ objectPosition: '50% 22%' }}
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-brand-black via-brand-black/90 to-brand-black/70" />
+        <div className="absolute inset-0 bg-gradient-to-r from-brand-black via-brand-black/75 to-brand-black/25" />
+        <div className="absolute inset-0 bg-gradient-to-t from-brand-black via-transparent to-transparent" />
       </div>
 
       {/* Background diagonal shapes */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-0 right-0 w-[70%] h-full bg-gradient-to-br from-brand-red/20 via-brand-red/10 to-transparent transform skew-x-[-12deg] translate-x-[20%]" />
-        <div className="absolute bottom-0 left-0 w-[40%] h-[60%] bg-gradient-to-tr from-brand-red/10 to-transparent transform skew-x-[12deg] -translate-x-[10%]" />
+        <div className="absolute top-0 right-0 w-[70%] h-full bg-gradient-to-br from-brand-red/10 via-brand-red/5 to-transparent transform skew-x-[-12deg] translate-x-[20%]" />
+        <div className="absolute bottom-0 left-0 w-[40%] h-[60%] bg-gradient-to-tr from-brand-red/5 to-transparent transform skew-x-[12deg] -translate-x-[10%]" />
       </div>
 
       {/* Floating baseball emojis */}
