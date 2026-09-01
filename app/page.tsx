@@ -1787,42 +1787,6 @@ function BaseballTips() {
           ))}
         </div>
 
-        {/* Fun baseball emojis row */}
-        <AnimatedSection className="mt-12 sm:mt-16">
-          <div className="flex justify-center gap-6 sm:gap-8 text-4xl sm:text-5xl">
-            <motion.span 
-              animate={{ y: [-10, 10, -10] }}
-              transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-            >
-              ⚾
-            </motion.span>
-            <motion.span 
-              animate={{ y: [10, -10, 10] }}
-              transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut" }}
-            >
-              🏏
-            </motion.span>
-            <motion.span
-              animate={{ y: [-10, 10, -10] }}
-              transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-              className="text-brand-red inline-flex"
-            >
-              <GloveIcon className="w-9 h-9 sm:w-11 sm:h-11" />
-            </motion.span>
-            <motion.span 
-              animate={{ y: [10, -10, 10] }}
-              transition={{ duration: 2.2, repeat: Infinity, ease: "easeInOut" }}
-            >
-              🏆
-            </motion.span>
-            <motion.span 
-              animate={{ y: [-10, 10, -10] }}
-              transition={{ duration: 2.8, repeat: Infinity, ease: "easeInOut" }}
-            >
-              🏟️
-            </motion.span>
-          </div>
-        </AnimatedSection>
       </div>
     </section>
   );
