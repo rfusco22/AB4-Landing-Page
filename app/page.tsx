@@ -640,10 +640,10 @@ function Hero() {
     <section id="inicio" className="relative min-h-screen flex items-center overflow-hidden bg-brand-black">
       {/* Background baseball image */}
       <div className="absolute inset-0">
-        <img 
-          src="https://images.unsplash.com/photo-1566577739112-5180d4bf9390?w=1920&q=80" 
-          alt="Baseball background" 
-          className="w-full h-full object-cover opacity-20"
+        <img
+          src="/academy/hero-bg.jpg"
+          alt="AB4 Academy players in the dugout"
+          className="w-full h-full object-cover opacity-40"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-brand-black via-brand-black/90 to-brand-black/70" />
       </div>
@@ -783,7 +783,14 @@ function Hero() {
             <div className="absolute w-[420px] h-[480px] bg-brand-red/10 rounded-[2rem] transform -rotate-2 translate-x-4 translate-y-4" />
 
             {/* Main card */}
-            <div className="relative w-[400px] h-[460px] bg-gradient-to-br from-brand-red to-brand-red-dark rounded-[2rem] flex items-center justify-center overflow-hidden shadow-2xl shadow-brand-red/20">
+            <div className="relative w-[400px] h-[460px] rounded-[2rem] flex items-center justify-center overflow-hidden shadow-2xl shadow-brand-red/20">
+              {/* Real AB4 team photo */}
+              <img
+                src="/academy/hero-card.jpg"
+                alt="AB4 Academy team"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-br from-brand-red/90 to-brand-red-dark/85" />
               {/* Diagonal stripe */}
               <div className="absolute top-0 right-0 w-full h-full">
                 <div className="absolute top-0 right-0 w-[60%] h-full bg-white/5 transform skew-x-[-15deg] translate-x-[30%]" />
@@ -841,33 +848,33 @@ function BaseballGallery() {
   
   const baseballImages = [
     {
-      src: 'https://images.unsplash.com/photo-1566577739112-5180d4bf9390?w=800&q=80',
-      alt: 'Baseball batter hitting',
-      caption: lang === 'es' ? 'Entrenamiento de Bateo' : 'Batting Practice'
+      src: '/academy/gallery-champions.jpg',
+      alt: 'AB4 Academy team with championship trophy',
+      caption: lang === 'es' ? 'Espíritu de Campeones' : 'Championship Spirit'
     },
     {
-      src: 'https://images.unsplash.com/photo-1529768167801-9173d94c2a42?w=800&q=80',
-      alt: 'Baseball pitcher throwing',
-      caption: lang === 'es' ? 'Desarrollo de Pitching' : 'Pitching Development'
+      src: '/academy/gallery-strength.jpg',
+      alt: 'AB4 Academy strength training',
+      caption: lang === 'es' ? 'Fuerza y Acondicionamiento' : 'Strength & Conditioning'
     },
     {
-      src: 'https://images.unsplash.com/photo-1508344928928-7165b67de128?w=800&q=80',
-      alt: 'Baseball field aerial view',
+      src: '/academy/gallery-facilities.jpg',
+      alt: 'AB4 Academy indoor training facility',
       caption: lang === 'es' ? 'Nuestras Instalaciones' : 'Our Facilities'
     },
     {
-      src: 'https://images.unsplash.com/photo-1578432155230-6b5e191d4d8c?w=800&q=80',
-      alt: 'Baseball glove and ball',
+      src: '/academy/gallery-fundamentals.jpg',
+      alt: 'AB4 Academy fielding fundamentals',
       caption: lang === 'es' ? 'Fundamentos del Juego' : 'Game Fundamentals'
     },
     {
-      src: 'https://images.unsplash.com/photo-1565060488-1cfdd0cdcdf1?w=800&q=80',
-      alt: 'Baseball team celebrating',
+      src: '/academy/gallery-teamwork.jpg',
+      alt: 'AB4 Academy team together',
       caption: lang === 'es' ? 'Trabajo en Equipo' : 'Teamwork'
     },
     {
-      src: 'https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=800&q=80',
-      alt: 'Baseball player running bases',
+      src: '/academy/gallery-speed-agility.jpg',
+      alt: 'AB4 Academy speed and agility drills',
       caption: lang === 'es' ? 'Velocidad y Agilidad' : 'Speed & Agility'
     },
   ];
@@ -921,18 +928,18 @@ function BaseballGallery() {
         {/* Animated baseball GIF */}
         <AnimatedSection className="mt-12 sm:mt-16 text-center">
           <div className="inline-flex items-center gap-4 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full px-6 sm:px-8 py-3 sm:py-4">
-            <img 
-              src="https://media.giphy.com/media/3o7TKMt1VVNkHV2PaE/giphy.gif" 
-              alt="Baseball animation" 
-              className="w-10 h-10 sm:w-12 sm:h-12 rounded-full"
+            <img
+              src="/academy/gallery-teamwork.jpg"
+              alt="AB4 Academy athletes"
+              className="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover border-2 border-brand-red/60"
             />
             <span className="text-white font-medium text-sm sm:text-base">
               {lang === 'es' ? '¡Únete a la familia AB4!' : 'Join the AB4 Family!'}
             </span>
-            <img 
-              src="https://media.giphy.com/media/l0HlNQ03J5JR3V2sE/giphy.gif" 
-              alt="Baseball hit animation" 
-              className="w-10 h-10 sm:w-12 sm:h-12 rounded-full"
+            <img
+              src="/academy/gallery-champions.jpg"
+              alt="AB4 Academy champions"
+              className="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover border-2 border-brand-red/60"
             />
           </div>
         </AnimatedSection>
@@ -1552,10 +1559,10 @@ function BaseballStats() {
   const statsSub = lang === 'es' ? 'Nuestro impacto en el desarrollo de atletas' : 'Our impact on athlete development';
   
   const stats = [
-    { emoji: '⚾', number: '200+', label: lang === 'es' ? 'Atletas Formados' : 'Athletes Trained', gif: 'https://media.giphy.com/media/3o7TKMt1VVNkHV2PaE/giphy.gif' },
-    { emoji: '🏆', number: '10+', label: lang === 'es' ? 'Años de Experiencia MLB' : 'Years MLB Experience', gif: 'https://media.giphy.com/media/l0HlNQ03J5JR3V2sE/giphy.gif' },
-    { emoji: '🎓', number: '50+', label: lang === 'es' ? 'Becas Universitarias' : 'College Scholarships', gif: 'https://media.giphy.com/media/3o7TKMt1VVNkHV2PaE/giphy.gif' },
-    { emoji: '🌴', number: 'Tampa', label: lang === 'es' ? 'Florida, USA' : 'Florida, USA', gif: 'https://media.giphy.com/media/l0HlNQ03J5JR3V2sE/giphy.gif' },
+    { emoji: '⚾', number: '200+', label: lang === 'es' ? 'Atletas Formados' : 'Athletes Trained', photo: '/academy/gallery-teamwork.jpg' },
+    { emoji: '🏆', number: '10+', label: lang === 'es' ? 'Años de Experiencia MLB' : 'Years MLB Experience', photo: '/A_Blanco.JPG' },
+    { emoji: '🎓', number: '50+', label: lang === 'es' ? 'Becas Universitarias' : 'College Scholarships', photo: '/academy/gallery-champions.jpg' },
+    { emoji: '🌴', number: 'Tampa', label: lang === 'es' ? 'Florida, USA' : 'Florida, USA', photo: '/academy/gallery-facilities.jpg' },
   ];
 
   return (
@@ -1583,7 +1590,7 @@ function BaseballStats() {
                 <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-brand-red mb-2">{stat.number}</div>
                 <div className="text-white/60 text-sm sm:text-base font-medium">{stat.label}</div>
                 <div className="mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <img src={stat.gif} alt="Baseball animation" className="w-16 h-16 mx-auto rounded-full" />
+                  <img src={stat.photo} alt={stat.label} className="w-16 h-16 mx-auto rounded-full object-cover border-2 border-brand-red/50" />
                 </div>
               </div>
             </AnimatedSection>
@@ -1594,13 +1601,16 @@ function BaseballStats() {
         <AnimatedSection className="mt-12 sm:mt-16">
           <div className="flex items-center justify-center gap-4">
             <div className="flex-grow h-px bg-gradient-to-r from-transparent to-brand-red/30" />
-            <motion.img 
-              src="https://media.giphy.com/media/3o7TKMt1VVNkHV2PaE/giphy.gif" 
-              alt="Baseball" 
-              className="w-12 h-12 sm:w-16 sm:h-16 rounded-full"
+            <motion.svg
+              viewBox="0 0 100 100"
+              className="w-12 h-12 sm:w-16 sm:h-16"
               animate={{ rotate: 360 }}
               transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-            />
+            >
+              <circle cx="50" cy="50" r="48" fill="#F5F5F5" stroke="#C53126" strokeWidth="1.5" />
+              <path d="M22 15 C35 30, 35 70, 22 85" stroke="#C53126" strokeWidth="3" fill="none" strokeDasharray="4,3" />
+              <path d="M78 15 C65 30, 65 70, 78 85" stroke="#C53126" strokeWidth="3" fill="none" strokeDasharray="4,3" />
+            </motion.svg>
             <div className="flex-grow h-px bg-gradient-to-l from-transparent to-brand-red/30" />
           </div>
         </AnimatedSection>
@@ -1675,19 +1685,19 @@ function BaseballTips() {
       emoji: '🏏',
       title: lang === 'es' ? 'Técnica de Bateo' : 'Batting Technique',
       description: lang === 'es' ? 'Mantén los ojos en la pelota y sigue el swing con todo el cuerpo.' : 'Keep your eyes on the ball and follow through with your whole body.',
-      gif: 'https://media.giphy.com/media/3o7TKMt1VVNkHV2PaE/giphy.gif'
+      photo: '/academy/tips-batting.jpg'
     },
     {
       emoji: '🧤',
       title: lang === 'es' ? 'Defensa Perfecta' : 'Perfect Defense',
       description: lang === 'es' ? 'Posicionamiento y anticipación son clave para una buena defensa.' : 'Positioning and anticipation are key to good defense.',
-      gif: 'https://media.giphy.com/media/l0HlNQ03J5JR3V2sE/giphy.gif'
+      photo: '/academy/tips-defense.jpg'
     },
     {
       emoji: '⚾',
       title: lang === 'es' ? 'Control de Pitches' : 'Pitch Control',
       description: lang === 'es' ? 'La consistencia viene de la repetición y la mecánica correcta.' : 'Consistency comes from repetition and proper mechanics.',
-      gif: 'https://media.giphy.com/media/3o7TKMt1VVNkHV2PaE/giphy.gif'
+      photo: '/academy/tips-pitching.jpg'
     },
   ];
 
@@ -1719,8 +1729,8 @@ function BaseballTips() {
                 </div>
                 <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6">{tip.description}</p>
                 <div className="overflow-hidden rounded-xl">
-                  <img 
-                    src={tip.gif} 
+                  <img
+                    src={tip.photo}
                     alt={tip.title}
                     className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
                   />
@@ -1776,7 +1786,13 @@ function CtaBanner() {
   const c = t[lang];
 
   return (
-    <section className="py-16 sm:py-20 lg:py-24 bg-gradient-to-br from-brand-black via-brand-gray to-brand-black relative overflow-hidden noise-overlay">
+    <section className="py-16 sm:py-20 lg:py-24 relative overflow-hidden noise-overlay">
+      <img
+        src="/academy/cta-champions.jpg"
+        alt="AB4 Academy champions"
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+      <div className="absolute inset-0 bg-gradient-to-br from-brand-black/95 via-brand-black/90 to-brand-gray/90" />
       <div className="absolute top-0 right-0 w-64 sm:w-96 h-64 sm:h-96 bg-brand-red/20 rounded-full blur-3xl" />
       <div className="absolute bottom-0 left-0 w-64 sm:w-96 h-64 sm:h-96 bg-brand-red/10 rounded-full blur-3xl" />
       <div className="max-w-4xl mx-auto px-5 sm:px-6 lg:px-8 text-center relative z-10">
