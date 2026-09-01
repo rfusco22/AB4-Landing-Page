@@ -853,6 +853,31 @@ function BaseballGallery() {
       caption: lang === 'es' ? 'Día de Campeonato' : 'Championship Day'
     },
     {
+      src: '/academy/gallery-champions-3.webp',
+      alt: 'AB4 Academy PG BCS National Championship graphic',
+      caption: lang === 'es' ? 'Campeones BCS National' : 'BCS National Champions'
+    },
+    {
+      src: '/academy/gallery-champions-4.webp',
+      alt: 'AB4 Academy PG National Org Challenge champions',
+      caption: lang === 'es' ? 'Campeones PG National' : 'PG National Champions'
+    },
+    {
+      src: '/academy/gallery-champions-sunset.webp',
+      alt: 'AB4 Academy team at sunset after a tournament',
+      caption: lang === 'es' ? 'Celebrando la Temporada' : 'Celebrating the Season'
+    },
+    {
+      src: '/academy/gallery-dugout-focus.webp',
+      alt: 'AB4 Academy team focused in the dugout',
+      caption: lang === 'es' ? 'Enfoque de Equipo' : 'Team Focus'
+    },
+    {
+      src: '/academy/gallery-finalists.webp',
+      alt: 'AB4 Academy team as tournament finalists',
+      caption: lang === 'es' ? 'Finalistas Nacionales' : 'National Finalists'
+    },
+    {
       src: '/academy/gallery-strength.jpg',
       alt: 'AB4 Academy strength training',
       caption: lang === 'es' ? 'Fuerza y Acondicionamiento' : 'Strength & Conditioning'
