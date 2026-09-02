@@ -512,22 +512,6 @@ function AnimatedSection({ children, className = '', delay = 0 }: { children: Re
   );
 }
 
-// ============ BASEBALL BAT ICON ============
-function BatIcon({ className = 'w-5 h-5' }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" className={className} fill="none" xmlns="http://www.w3.org/2000/svg">
-      <g transform="rotate(-38 12 12)">
-        <path
-          d="M9.7,5 Q9.7,3 12,3 Q14.3,3 14.3,5 L14.3,10 L12.9,19 L12.9,21 Q12.9,22 12,22 Q11.1,22 11.1,21 L11.1,19 L9.7,10 Z"
-          fill="currentColor" fillOpacity="0.22" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round"
-        />
-      </g>
-      <circle cx="17.6" cy="6.6" r="2.6" fill="currentColor" fillOpacity="0.2" stroke="currentColor" strokeWidth="1.2" />
-      <path d="M16.3 5.2c.6.6.6 2.2 0 2.8M18.9 5.2c-.6.6-.6 2.2 0 2.8" stroke="currentColor" strokeWidth="0.8" strokeLinecap="round" />
-    </svg>
-  );
-}
-
 // ============ CONTACT ICONS ============
 function PinIcon({ className = 'w-5 h-5' }: { className?: string }) {
   return (
@@ -727,15 +711,6 @@ function Hero() {
         <div className="absolute top-0 right-0 w-[70%] h-full bg-gradient-to-br from-brand-red/10 via-brand-red/5 to-transparent transform skew-x-[-12deg] translate-x-[20%]" />
         <div className="absolute bottom-0 left-0 w-[40%] h-[60%] bg-gradient-to-tr from-brand-red/5 to-transparent transform skew-x-[12deg] -translate-x-[10%]" />
       </div>
-
-      {/* Floating baseball icon */}
-      <motion.div
-        animate={{ y: [-15, 15, -15], scale: [1, 1.1, 1] }}
-        transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute top-[40%] right-[5%] w-8 h-8 sm:w-12 sm:h-12 text-white opacity-10 hidden lg:block"
-      >
-        <BatIcon className="w-full h-full" />
-      </motion.div>
 
       {/* Decorative dots pattern */}
       <div className="absolute top-20 left-4 sm:left-10 grid grid-cols-4 gap-2 sm:gap-3 opacity-20">
@@ -1377,13 +1352,8 @@ function ProgramCard({ title, subtitle, price, schedule, scheduleTime, optionsLa
               <svg className="w-4 h-4 sm:w-5 sm:h-5 text-brand-red mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
               </svg>
-              <span className="text-xs sm:text-sm text-white/80 inline-flex items-center gap-1.5">
-                {feature.startsWith('🧤 ') ? (
-                  <>
-                    <BatIcon className="w-4 h-4 text-brand-red flex-shrink-0" />
-                    {feature.replace('🧤 ', '')}
-                  </>
-                ) : feature}
+              <span className="text-xs sm:text-sm text-white/80">
+                {feature.replace('🧤 ', '')}
               </span>
             </div>
           ))}
@@ -1750,12 +1720,7 @@ function BaseballTips() {
           {tips.map((tip, i) => (
             <AnimatedSection key={i} delay={i * 0.15}>
               <div className="group bg-brand-gray-light rounded-2xl sm:rounded-3xl p-6 sm:p-8 hover:bg-brand-red/5 transition-all duration-500 hover-lift h-full">
-                <div className="flex items-center gap-3 mb-4 sm:mb-6">
-                  <span className="text-brand-red inline-flex">
-                    <BatIcon className="w-8 h-8 sm:w-9 sm:h-9" />
-                  </span>
-                  <h3 className="text-lg sm:text-xl font-bold text-brand-black">{tip.title}</h3>
-                </div>
+                <h3 className="text-lg sm:text-xl font-bold text-brand-black mb-4 sm:mb-6">{tip.title}</h3>
                 <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6">{tip.description}</p>
                 <div className="overflow-hidden rounded-xl">
                   <img
@@ -1992,15 +1957,10 @@ function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4 sm:mb-6 text-sm sm:text-base">{c.footerPrograms}</h4>
             <ul className="space-y-2 sm:space-y-3">
-              {['Hitting Instruction', 'Pitching Development', '🧤 Fielding & Defense', 'Showcase Teams'].map((item) => (
+              {['Hitting Instruction', 'Pitching Development', 'Fielding & Defense', 'Showcase Teams'].map((item) => (
                 <li key={item}>
-                  <a href="#programas" className="text-white/50 text-xs sm:text-sm hover:text-brand-red transition-colors inline-flex items-center gap-1.5">
-                    {item.startsWith('🧤 ') ? (
-                      <>
-                        <BatIcon className="w-3.5 h-3.5 flex-shrink-0" />
-                        {item.replace('🧤 ', '')}
-                      </>
-                    ) : item}
+                  <a href="#programas" className="text-white/50 text-xs sm:text-sm hover:text-brand-red transition-colors">
+                    {item}
                   </a>
                 </li>
               ))}
