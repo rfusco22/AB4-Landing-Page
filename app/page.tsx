@@ -247,6 +247,11 @@ const t = {
     // Ronald Bio
     teamRonald: 'Coach',
     ronaldBioRole: 'Coach | Ex-Jugador de MLB',
+    ronaldBioParagraphs: [
+      'Ronald Torreyes es exjugador de Major League Baseball (MLB) con siete temporadas de experiencia al más alto nivel, formando parte de organizaciones como Los Angeles Dodgers, New York Yankees, Minnesota Twins y Philadelphia Phillies.',
+      'Reconocido por su versatilidad como infielder, se desempeñó profesionalmente en shortstop, second base y third base, destacándose por sus fundamentos, conocimiento del juego y capacidad defensiva.',
+      'Actualmente, como parte del coaching staff de AB4 Academy, Ronald aporta su experiencia de Grandes Ligas al desarrollo técnico y competitivo de nuestros atletas, ayudándolos a fortalecer sus fundamentos, preparación y comprensión del juego.',
+    ],
     // Footer
     footerDesc: 'Programa de desarrollo de béisbol juvenil de élite en Tampa, Florida. Desarrollando atletas y líderes de carácter.',
     footerPrograms: 'Programas',
@@ -485,6 +490,11 @@ const t = {
     // Ronald Bio
     teamRonald: 'Coach',
     ronaldBioRole: 'Coach | Former MLB Player',
+    ronaldBioParagraphs: [
+      'Ronald Torreyes is a former Major League Baseball (MLB) player with seven seasons of experience at the highest level, having been part of organizations such as the Los Angeles Dodgers, New York Yankees, Minnesota Twins, and Philadelphia Phillies.',
+      'Recognized for his versatility as an infielder, he played professionally at shortstop, second base, and third base, standing out for his fundamentals, knowledge of the game, and defensive ability.',
+      'Currently, as part of the AB4 Academy coaching staff, Ronald brings his Major League experience to the technical and competitive development of our athletes, helping them strengthen their fundamentals, preparation, and understanding of the game.',
+    ],
     // Footer
     footerDesc: 'Elite youth baseball development program in Tampa, Florida. Developing elite athletes and leaders of character.',
     footerPrograms: 'Programs',
@@ -1043,6 +1053,7 @@ function About() {
       role: c.teamRonald,
       photo: '/staff/ronald-torreyes.jpg',
       bioRole: c.ronaldBioRole,
+      bio: c.ronaldBioParagraphs,
     },
   ];
 
