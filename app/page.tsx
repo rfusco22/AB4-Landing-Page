@@ -749,14 +749,6 @@ function Hero() {
         ))}
       </div>
 
-      {/* Baseball stitching decorative element */}
-      <div className="absolute top-1/2 left-5 w-20 h-40 opacity-10 hidden xl:block">
-        <svg viewBox="0 0 50 100" className="w-full h-full">
-          <path d="M25 5 C35 25, 40 50, 25 95" stroke="#E63B2E" strokeWidth="2" fill="none" strokeDasharray="4,4"/>
-          <path d="M25 5 C15 25, 10 50, 25 95" stroke="#E63B2E" strokeWidth="2" fill="none" strokeDasharray="4,4"/>
-        </svg>
-      </div>
-
       {/* Decorative circles */}
       <div className="absolute top-1/3 right-[30%] w-10 h-10 sm:w-16 sm:h-16 border border-brand-red/30 rounded-full hidden sm:block" />
       <div className="absolute top-1/4 right-[25%] w-5 h-5 sm:w-8 sm:h-8 border border-white/20 rounded-full hidden sm:block" />
@@ -949,19 +941,6 @@ function BaseballGallery() {
     <section className="py-16 sm:py-20 lg:py-24 bg-gradient-to-b from-brand-black to-brand-gray relative overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-brand-red to-transparent" />
       
-      {/* Decorative baseball stitching */}
-      <div className="absolute top-10 left-10 w-32 h-32 opacity-10">
-        <svg viewBox="0 0 100 100" className="w-full h-full text-brand-red">
-          <path d="M50 10 C60 30, 70 50, 50 90" stroke="currentColor" strokeWidth="2" fill="none" strokeDasharray="5,5"/>
-          <path d="M50 10 C40 30, 30 50, 50 90" stroke="currentColor" strokeWidth="2" fill="none" strokeDasharray="5,5"/>
-        </svg>
-      </div>
-      <div className="absolute bottom-10 right-10 w-24 h-24 opacity-10 rotate-45">
-        <svg viewBox="0 0 100 100" className="w-full h-full text-white">
-          <path d="M50 10 C60 30, 70 50, 50 90" stroke="currentColor" strokeWidth="2" fill="none" strokeDasharray="5,5"/>
-          <path d="M50 10 C40 30, 30 50, 50 90" stroke="currentColor" strokeWidth="2" fill="none" strokeDasharray="5,5"/>
-        </svg>
-      </div>
 
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 relative z-10">
         <AnimatedSection className="text-center mb-12 sm:mb-16">
@@ -1653,25 +1632,6 @@ function BaseballStats() {
     <section className="py-16 sm:py-20 lg:py-24 bg-gradient-to-r from-brand-black via-brand-gray to-brand-black relative overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-brand-red to-transparent" />
       
-      {/* Baseball field background */}
-      <div className="absolute inset-0 opacity-[0.07] flex items-center justify-center overflow-hidden pointer-events-none">
-        <svg viewBox="0 0 730 650" className="w-[560px] h-[560px] sm:w-[720px] sm:h-[720px]" fill="none" stroke="white" strokeWidth="2">
-          {/* Outfield fence */}
-          <path d="M 2 237 A 513 513 0 0 1 728 237" />
-          {/* Infield dirt arc */}
-          <path d="M 134 369 A 327 327 0 0 1 596 369" />
-          {/* Foul lines */}
-          <line x1="365" y1="600" x2="728" y2="237" />
-          <line x1="365" y1="600" x2="2" y2="237" />
-          {/* Base paths */}
-          <path d="M 365 600 L 475 490 L 365 380 L 255 490 Z" />
-          {/* Pitcher's mound */}
-          <circle cx="365" cy="479" r="9" />
-          {/* Home plate */}
-          <circle cx="365" cy="600" r="6" fill="white" stroke="none" />
-        </svg>
-      </div>
-
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 relative z-10">
         <AnimatedSection className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4">{statsTitle}</h2>
@@ -1692,22 +1652,8 @@ function BaseballStats() {
           ))}
         </div>
 
-        {/* Animated baseball divider */}
         <AnimatedSection className="mt-12 sm:mt-16">
-          <div className="flex items-center justify-center gap-4">
-            <div className="flex-grow h-px bg-gradient-to-r from-transparent to-brand-red/30" />
-            <motion.svg
-              viewBox="0 0 100 100"
-              className="w-12 h-12 sm:w-16 sm:h-16"
-              animate={{ rotate: 360 }}
-              transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-            >
-              <circle cx="50" cy="50" r="48" fill="#F5F5F5" stroke="#C53126" strokeWidth="1.5" />
-              <path d="M22 15 C35 30, 35 70, 22 85" stroke="#C53126" strokeWidth="3" fill="none" strokeDasharray="4,3" />
-              <path d="M78 15 C65 30, 65 70, 78 85" stroke="#C53126" strokeWidth="3" fill="none" strokeDasharray="4,3" />
-            </motion.svg>
-            <div className="flex-grow h-px bg-gradient-to-l from-transparent to-brand-red/30" />
-          </div>
+          <div className="h-px bg-gradient-to-r from-transparent via-brand-red/30 to-transparent" />
         </AnimatedSection>
       </div>
     </section>
@@ -1794,14 +1740,6 @@ function BaseballTips() {
     <section className="py-16 sm:py-20 lg:py-24 bg-white relative overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-brand-red/20 to-transparent" />
       
-      {/* Baseball stitching background */}
-      <div className="absolute top-20 right-10 w-40 h-40 opacity-5">
-        <svg viewBox="0 0 100 100" className="w-full h-full text-brand-red">
-          <path d="M50 10 C60 30, 70 50, 50 90" stroke="currentColor" strokeWidth="3" fill="none" strokeDasharray="6,6"/>
-          <path d="M50 10 C40 30, 30 50, 50 90" stroke="currentColor" strokeWidth="3" fill="none" strokeDasharray="6,6"/>
-        </svg>
-      </div>
-
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 relative z-10">
         <AnimatedSection className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-brand-black mb-3 sm:mb-4">{tipsTitle}</h2>
