@@ -780,7 +780,6 @@ function Hero() {
               transition={{ delay: 0.4 }}
               className="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full px-4 sm:px-5 py-2 sm:py-2.5 mb-6 sm:mb-8"
             >
-              <span className="w-2 h-2 bg-brand-red rounded-full animate-pulse" />
               <span className="text-white/70 text-xs sm:text-sm font-medium tracking-wide">{c.heroTag}</span>
             </motion.div>
 
@@ -1328,7 +1327,6 @@ function WhyAb4() {
           {c.whyCards.map((card, i) => (
             <AnimatedSection key={i} delay={i * 0.1}>
               <div className="group p-6 sm:p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-brand-red/50 transition-all duration-500 hover:bg-white/10 h-full text-center">
-                <div className="w-8 h-8 sm:w-10 sm:h-10 mx-auto rounded-full bg-brand-red/10 group-hover:bg-brand-red transition-all duration-300 mb-4 sm:mb-6" />
                 <h3 className="text-base sm:text-lg font-bold text-white mb-2 sm:mb-3">{card.title}</h3>
                 <p className="text-white/60 leading-relaxed text-xs sm:text-sm">{card.desc}</p>
               </div>
@@ -1737,7 +1735,6 @@ function Events() {
           {c.events.map((event, i) => (
             <AnimatedSection key={i} delay={i * 0.1}>
               <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 text-center hover-lift border border-gray-100 hover:border-brand-red/30 transition-all duration-500 h-full">
-                <div className="w-8 h-8 sm:w-10 sm:h-10 mx-auto rounded-full bg-brand-red/10 mb-3 sm:mb-4" />
                 <h4 className="font-bold text-brand-black text-xs sm:text-sm mb-0.5 sm:mb-1">{event.name}</h4>
                 <p className="text-[10px] sm:text-xs text-gray-500">{event.month}</p>
               </div>
