@@ -1582,50 +1582,6 @@ function Programs() {
   );
 }
 
-// ============ BASEBALL STATS ============
-function BaseballStats() {
-  const lang = useLang();
-  
-  const statsTitle = lang === 'es' ? 'Números que Hablan' : 'Numbers That Speak';
-  const statsSub = lang === 'es' ? 'Nuestro impacto en el desarrollo de atletas' : 'Our impact on athlete development';
-  
-  const stats = [
-    { number: '10+', label: lang === 'es' ? 'Años de Experiencia MLB' : 'Years MLB Experience', photo: '/A_Blanco.JPG' },
-    { number: 'Tampa', label: lang === 'es' ? 'Florida, USA' : 'Florida, USA', photo: '/academy/gallery-facilities.jpg' },
-  ];
-
-  return (
-    <section className="py-16 sm:py-20 lg:py-24 bg-gradient-to-r from-brand-black via-brand-gray to-brand-black relative overflow-hidden">
-      <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-brand-red to-transparent" />
-      
-      <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 relative z-10">
-        <AnimatedSection className="text-center mb-12 sm:mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4">{statsTitle}</h2>
-          <p className="text-base sm:text-lg text-white/50">{statsSub}</p>
-        </AnimatedSection>
-
-        <div className="grid grid-cols-2 gap-6 sm:gap-8 max-w-lg mx-auto">
-          {stats.map((stat, i) => (
-            <AnimatedSection key={i} delay={i * 0.15}>
-              <div className="group text-center p-6 sm:p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-brand-red/50 transition-all duration-500 hover:bg-white/10">
-                <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-brand-red mb-2">{stat.number}</div>
-                <div className="text-white/60 text-sm sm:text-base font-medium">{stat.label}</div>
-                <div className="mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <img src={stat.photo} alt={stat.label} className="w-16 h-16 mx-auto rounded-full object-cover border-2 border-brand-red/50" />
-                </div>
-              </div>
-            </AnimatedSection>
-          ))}
-        </div>
-
-        <AnimatedSection className="mt-12 sm:mt-16">
-          <div className="h-px bg-gradient-to-r from-transparent via-brand-red/30 to-transparent" />
-        </AnimatedSection>
-      </div>
-    </section>
-  );
-}
-
 // ============ EVENTS ============
 function Events() {
   const lang = useLang();
@@ -2003,7 +1959,6 @@ export default function Home() {
           <About />
           <WhyAb4 />
           <Programs />
-          <BaseballStats />
           <Events />
           <BaseballTips />
           <CtaBanner />
