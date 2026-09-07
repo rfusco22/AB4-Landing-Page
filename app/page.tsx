@@ -27,7 +27,7 @@ const t = {
     heroSub: 'Un programa integral de desarrollo de béisbol creado para preparar a estudiantes-atletas para alcanzar el siguiente nivel.',
     heroCta1: 'Conoce Nuestros Programas',
     heroCta2: 'Contáctanos',
-    stat1Num: '200+', stat1Label: 'Atletas Activos',
+    stat1Num: 'Creciente', stat1Label: 'Comunidad de Atletas',
     stat2Num: 'Tampa', stat2Label: 'Florida',
     stat3Num: 'Elite', stat3Label: 'Entrenamiento',
     // About
@@ -270,7 +270,7 @@ const t = {
     heroSub: 'A complete baseball development program built to prepare student-athletes for the next level.',
     heroCta1: 'Explore Our Programs',
     heroCta2: 'Contact Us',
-    stat1Num: '200+', stat1Label: 'Active Athletes',
+    stat1Num: 'Growing', stat1Label: 'Athlete Community',
     stat2Num: 'Tampa', stat2Label: 'Florida',
     stat3Num: 'Elite', stat3Label: 'Training',
     // About
@@ -1597,9 +1597,9 @@ function BaseballStats() {
   const statsSub = lang === 'es' ? 'Nuestro impacto en el desarrollo de atletas' : 'Our impact on athlete development';
   
   const stats = [
-    { number: '200+', label: lang === 'es' ? 'Atletas Formados' : 'Athletes Trained', photo: '/academy/gallery-teamwork.jpg' },
+    { number: lang === 'es' ? 'Creciente' : 'Growing', label: lang === 'es' ? 'Comunidad de Atletas' : 'Athlete Community', photo: '/academy/gallery-teamwork.jpg' },
     { number: '10+', label: lang === 'es' ? 'Años de Experiencia MLB' : 'Years MLB Experience', photo: '/A_Blanco.JPG' },
-    { number: '50+', label: lang === 'es' ? 'Becas Universitarias' : 'College Scholarships', photo: '/academy/gallery-champions.jpg' },
+    { number: lang === 'es' ? 'Universitarias' : 'College', label: lang === 'es' ? 'Oportunidades de Becas' : 'Scholarship Opportunities', photo: '/academy/gallery-champions.jpg' },
     { number: 'Tampa', label: lang === 'es' ? 'Florida, USA' : 'Florida, USA', photo: '/academy/gallery-facilities.jpg' },
   ];
 
