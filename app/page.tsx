@@ -167,17 +167,17 @@ const t = {
     // Team
     teamTag: 'Nuestro Equipo',
     teamTitle: 'Conoce a Nuestro Staff',
-    teamSub: 'Profesionales con experiencia en las ligas mayores comprometidos con el desarrollo de tu atleta.',
-    teamFounder: 'Fundador & CEO',
+    teamSub: 'Coaches profesionales y ex-jugadores profesionales comprometidos con el desarrollo de tu atleta.',
+    teamFounder: 'Fundador y Director de Desarrollo de Jugadores',
     teamFounderDesc: 'Ex-Jugador de Béisbol Profesional MLB',
-    teamOps: 'Director de Operaciones',
+    teamOps: 'Director de Operaciones y Desarrollo de Jugadores',
     teamOpsDesc: 'Ex-Jugador de Béisbol Profesional',
     teamGeneral: 'Coordinador General',
     teamCatching: '🧤 Instructor de Catching',
     teamPitching: 'Coach de Pitcheo',
     teamInfield: 'Coach de Infield',
-    teamUtility: 'Coach Multiposición',
-    teamEducation: 'Tutoría Educativa',
+    teamUtility: 'Coach de Desarrollo de Jugadores',
+    teamEducation: 'Coordinadora de Apoyo Académico',
     // Founder Bio
     founderBioTag: 'Trayectoria Profesional',
     founderBioTitle: 'Andrés Eloy Blanco',
@@ -210,7 +210,7 @@ const t = {
     // Juan Bio
     juanBioTag: 'Trayectoria Profesional',
     juanBioTitle: 'Juan Muñoz',
-    juanBioRole: 'Coach | Experiencia en Béisbol Universitario',
+    juanBioRole: 'Player Development Coach | Experiencia en Béisbol Universitario',
     juanBioParagraphs: [
       'Juan Muñoz cuenta con experiencia en el béisbol universitario en Estados Unidos, donde desarrolló su conocimiento del juego en un entorno competitivo y de alto nivel.',
       'Durante su trayectoria, adquirió experiencia en fundamentos técnicos, disciplina deportiva, preparación física y comprensión del juego, además de conocer de primera mano las exigencias y el nivel de competencia del baseball universitario en Estados Unidos.',
@@ -245,7 +245,7 @@ const t = {
       'Su experiencia y vocación aportan una visión integral al programa, promoviendo en cada estudiante disciplina, responsabilidad, autonomía y compromiso con su futuro académico y personal.',
     ],
     // Ronald Bio
-    teamRonald: 'Coach',
+    teamRonald: 'Coach Profesional de Béisbol',
     ronaldBioRole: 'Coach | Ex-Jugador de MLB',
     ronaldBioParagraphs: [
       'Ronald Torreyes es exjugador de Major League Baseball (MLB) con siete temporadas de experiencia al más alto nivel, formando parte de organizaciones como Los Angeles Dodgers, New York Yankees, Minnesota Twins y Philadelphia Phillies.',
@@ -410,17 +410,17 @@ const t = {
     // Team
     teamTag: 'Our Team',
     teamTitle: 'Meet Our Staff',
-    teamSub: 'Professionals with major league experience committed to developing your athlete.',
-    teamFounder: 'Founder & CEO',
+    teamSub: 'Professional coaches and former professional players committed to developing your athlete.',
+    teamFounder: 'Founder & Director of Player Development',
     teamFounderDesc: 'Former MLB Professional Baseball Player',
-    teamOps: 'Director of Operations',
+    teamOps: 'Director of Operations & Player Development',
     teamOpsDesc: 'Former Professional Baseball Player',
     teamGeneral: 'General Coordinator',
     teamCatching: '🧤 Catching Instructor',
     teamPitching: 'Pitching Coach',
     teamInfield: 'Infield Coach',
-    teamUtility: 'Utility Coach',
-    teamEducation: 'Educational Tutoring',
+    teamUtility: 'Player Development Coach',
+    teamEducation: 'Academic Support Coordinator',
     // Founder Bio
     founderBioTag: 'Professional Career',
     founderBioTitle: 'Andrés Eloy Blanco',
@@ -453,7 +453,7 @@ const t = {
     // Juan Bio
     juanBioTag: 'Professional Career',
     juanBioTitle: 'Juan Muñoz',
-    juanBioRole: 'Coach | College Baseball Experience',
+    juanBioRole: 'Player Development Coach | College Baseball Experience',
     juanBioParagraphs: [
       'Juan Muñoz has experience in college baseball in the United States, where he developed his knowledge of the game in a competitive and high-level environment.',
       'During his career, he gained experience in technical fundamentals, sports discipline, physical preparation, and understanding of the game, as well as first-hand knowledge of the demands and competition level of college baseball in the United States.',
@@ -488,7 +488,7 @@ const t = {
       'Her experience and vocation bring a comprehensive vision to the program, promoting in each student discipline, responsibility, autonomy, and commitment to their academic and personal future.',
     ],
     // Ronald Bio
-    teamRonald: 'Coach',
+    teamRonald: 'Professional Baseball Coach',
     ronaldBioRole: 'Coach | Former MLB Player',
     ronaldBioParagraphs: [
       'Ronald Torreyes is a former Major League Baseball (MLB) player with seven seasons of experience at the highest level, having been part of organizations such as the Los Angeles Dodgers, New York Yankees, Minnesota Twins, and Philadelphia Phillies.',
