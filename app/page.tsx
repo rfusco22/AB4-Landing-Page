@@ -27,7 +27,6 @@ const t = {
     heroSub: 'Un programa integral de desarrollo de béisbol creado para preparar a estudiantes-atletas para alcanzar el siguiente nivel.',
     heroCta1: 'Conoce Nuestros Programas',
     heroCta2: 'Contáctanos',
-    stat1Num: 'Creciente', stat1Label: 'Comunidad de Atletas',
     stat2Num: 'Tampa', stat2Label: 'Florida',
     stat3Num: 'Elite', stat3Label: 'Entrenamiento',
     // About
@@ -270,7 +269,6 @@ const t = {
     heroSub: 'A complete baseball development program built to prepare student-athletes for the next level.',
     heroCta1: 'Explore Our Programs',
     heroCta2: 'Contact Us',
-    stat1Num: 'Growing', stat1Label: 'Athlete Community',
     stat2Num: 'Tampa', stat2Label: 'Florida',
     stat3Num: 'Elite', stat3Label: 'Training',
     // About
@@ -790,11 +788,6 @@ function Hero() {
 
             {/* Stats */}
             <div className="flex items-center gap-4 sm:gap-8 lg:gap-12">
-              <div className="text-left">
-                <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-white">{c.stat1Num}</div>
-                <div className="text-xs sm:text-sm text-white/40 mt-1 font-medium">{c.stat1Label}</div>
-              </div>
-              <div className="w-px h-10 sm:h-14 bg-white/10" />
               <div className="text-left">
                 <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-white">{c.stat2Num}</div>
                 <div className="text-xs sm:text-sm text-white/40 mt-1 font-medium">{c.stat2Label}</div>
@@ -1597,9 +1590,7 @@ function BaseballStats() {
   const statsSub = lang === 'es' ? 'Nuestro impacto en el desarrollo de atletas' : 'Our impact on athlete development';
   
   const stats = [
-    { number: lang === 'es' ? 'Creciente' : 'Growing', label: lang === 'es' ? 'Comunidad de Atletas' : 'Athlete Community', photo: '/academy/gallery-teamwork.jpg' },
     { number: '10+', label: lang === 'es' ? 'Años de Experiencia MLB' : 'Years MLB Experience', photo: '/A_Blanco.JPG' },
-    { number: lang === 'es' ? 'Universitarias' : 'College', label: lang === 'es' ? 'Oportunidades de Becas' : 'Scholarship Opportunities', photo: '/academy/gallery-champions.jpg' },
     { number: 'Tampa', label: lang === 'es' ? 'Florida, USA' : 'Florida, USA', photo: '/academy/gallery-facilities.jpg' },
   ];
 
@@ -1613,7 +1604,7 @@ function BaseballStats() {
           <p className="text-base sm:text-lg text-white/50">{statsSub}</p>
         </AnimatedSection>
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+        <div className="grid grid-cols-2 gap-6 sm:gap-8 max-w-lg mx-auto">
           {stats.map((stat, i) => (
             <AnimatedSection key={i} delay={i * 0.15}>
               <div className="group text-center p-6 sm:p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-brand-red/50 transition-all duration-500 hover:bg-white/10">
